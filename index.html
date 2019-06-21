@@ -8,11 +8,11 @@
   <link href="img/favicon.png" rel="icon">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
+  <link rel="stylesheet" href="css/main.css">
   <link href="css/project.css" rel="stylesheet">
 
   <title>In Bewegung</title>
@@ -29,26 +29,29 @@
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about-us">About</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#screenshots">Screenshots</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
+		<nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+		  <div class="block lg:hidden">
+		    <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+		      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+		    </button>
+		  </div>
+		  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+		    <div class="text-sm lg:flex-grow">
+		      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+		        Docs
+		      </a>
+		      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+		        Examples
+		      </a>
+		      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+		        Blog
+		      </a>
+		    </div>
+		    <div>
+		      <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+		    </div>
+		  </div>
+		</nav>
     </div>
   </header>
 
@@ -56,11 +59,12 @@
 
   <section class="team-section">
     <div class="container">
+    	<div></div>
     	Team
     </div>
   </section>
 
-    <section class="leistung-section">
+   <section class="leistung-section">
     <div class="container">
     	Leistung
     </div>
@@ -72,10 +76,5 @@
     </div>
   </section>
 </body>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </html>
