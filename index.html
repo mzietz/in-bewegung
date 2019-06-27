@@ -105,25 +105,39 @@
       </div>
     </div>
 
-    <div id="emp_card" class="md:w-1/2 md:flex bg-white rounded shadow-lg hover:shadow p-6 mx-auto mb-10">
-      <img id="emp_image" src="./img/woman_icon.jpg" class="rounded-full h-24 w-24 mr-2" alt="">
+  <div id="emp_card" class="md:w-1/2 mx-auto bg-white shadow-lg hover:shadow p-6 rounded-lg mb-6">
+    <div class="flex">
+      <img id="emp_image" src="./img/woman_icon.jpg" class="rounded-full h-32 w-32 mr-2" alt="">
       <div class="text-left">
-        <div id="emp_name" class="text-purple-500 text-l">Kristina</div>
+        <div id="emp_name" class="text-ib-lblue text-l">Kristina</div>
         <div id="emp_text" class="text-black text-m">Ich binaasdas asd as asfaisb basibdaoisb basid b</div>
       </div>
     </div>
+      <div class="pills flex my-5 ">
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2">
+        Sport
+        </div>
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2">
+        Aufbau
+        </div>
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2">
+        Übungen
+        </div>
+      </div>
+  </div>
 
-    <div class="flex justify-center">
-      <button><i id="Kristina" class="emp_btn fas fa-female mx-2 fa-5x text-ib-red" onclick="changeName(this)"></i></button>
-      <button><i id="Hanna" class="emp_btn fas fa-female mx-2 fa-5x" onclick="changeName(this)"></i></button>
-      <button><i id="Petra" class="emp_btn fas fa-female mx-2 fa-5x" onclick="changeName(this)"></i></button>
-      <button><i id="Anne" class="emp_btn fas fa-female mx-2 fa-5x" onclick="changeName(this)"></i></button>
-      <button><i id="Sandra" class="emp_btn fas fa-female mx-2 fa-5x" onclick="changeName(this)"></i></button>
-      <button><i id="Lea" class="emp_btn fas fa-female mx-2 fa-5x" onclick="changeName(this)"></i></button>
-      <button><i id="Sophie" class="emp_btn fas fa-female mx-2 fa-5x" onclick="changeName(this)"></i></button>
-      <button><i id="Jens" class="emp_btn fas fa-female mx-2 fa-5x" onclick="changeName(this)"></i></button>
+      <div class="flex justify-center h-32">
+        <div class="inline" >
+        <button><i id="Kristina" class="emp_btn fas fa-female mx-2 text-ib-red text-6xl" onclick="changeName(this)"></i></button>
+        <button><i id="Hanna" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+        <button><i id="Petra" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+        <button><i id="Anne" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+        <button><i id="Sandra" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+        <button><i id="Lea" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+        <button><i id="Sophie" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+        <button><i id="Jens" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+      </div>
     </div>
-
   </div>
 </section>
 
@@ -138,7 +152,7 @@
       </div>
     </div>
 
-    <div class="block mb-4 mx-5 md:flex">
+    <div class="block mb-4 px-10 md:flex">
 
       <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
         <img class="w-full" src="./img/1.jpg" alt="Sunset in the mountains">
@@ -194,7 +208,7 @@
 
     </div>
 
-    <div class="block mb-4 mx-5 md:flex">
+    <div class="block mb-4 md:flex px-10">
 
       <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
         <img class="w-full" src="./img/1.jpg" alt="Sunset in the mountains">
@@ -256,19 +270,38 @@
     <div class="container">
       <div class="h-64 bg-white flex items-center justify-center">
         <div>
-        <p class="text-center text-ib-lblue text-xl md:text-5xl wow fadeInLeft">Kontakt</p>
-        <p class="text-center text-ib-lblue text-s md:text-m wow fadeInLeft">So erreichen Sie uns</p>
+          <p class="text-center text-ib-blue text-xl md:text-5xl wow fadeInLeft">Kontakt</p>
+          <p class="text-center text-ib-blue text-s md:text-m wow fadeInLeft">So erreichen Sie uns</p>
+        </div>
+      </div>
+      <div class="block mb-4 md:flex justify-center">
+        <div class="md:w-1/3 md:flex bg-white rounded shadow-lg hover:shadow p-6 mb-10 mx-4">
+          <i class="fas fa-map-marker-alt fa-5x mx-4 text-ib-blue"></i>
+          <div class="text-left pl-3">
+            <div class="text-ib-blue text-l">Anschrift</div>
+            <div class="text-black text-m">Berlin 234 Berlinertrs 432</div>
+          </div>
+        </div>
+        <div class="md:w-1/3 md:flex bg-white rounded shadow-lg hover:shadow p-6 mb-10 mx-4">
+          <i class="fas fa-phone fa-5x mx-4 text-ib-blue"></i>
+          <div class="text-left pl-3">
+            <div class="text-ib-blue text-l">Kontakt</div>
+            <div class="text-black text-m">Wir bitten um telefonsche Terminvereinbarung</div>
+            <div class="text-black text-m">012124 124124 42</div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-<footer id="footer" class="w-full bg-white shadow">
-
-  <div class="text-center">
-       <div class="text-xl">In Bewegung</div>
-       <div>Impressum Datenschutzerklärung</div>
-  </div>   
+<footer id="footer" class="w-full">
+      <div class="h-32 bg-white flex items-center justify-center shadow">
+        <div>
+          <p class="text-center text-ib-lblue text-xl md:text-2xl mb-2">In Bewegung</p>
+          <a href="" class="text-center text-ib-blue text-s md:text-s mx-2">Impressum</a>
+          <a href="" class="text-center text-ib-blue text-s md:text-s mx-2 mb-2">Datenschutzerklärung</a>
+        </div>
+      </div>  
 
 </footer>
 
