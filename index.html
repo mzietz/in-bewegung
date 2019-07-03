@@ -74,17 +74,18 @@
   <div class="h-screen flex justify-center items-center">
     <div class="wrapper">
       <div class="text-area animation-area text-ib-blue text-xl md:text-5xl">
-          <span class="animated rollIn">I</span>
-          <span class="animated rollIn">n</span>
-          <span class="animated rollIn">&nbsp;</span>
-          <span class="animated rollIn">B</span>
-          <span class="animated rollIn">e</span>
-          <span class="animated rollIn">w</span>
-          <span class="animated rollIn">e</span>
-          <span class="animated rollIn">g</span>
-          <span class="animated rollIn">u</span>
-          <span class="animated rollIn">n</span>
-          <span class="animated rollIn">g</span>
+          <span class="animated zoomIn">I</span>
+          <span class="animated zoomIn">n</span>
+          <span class="animated zoomIn">&nbsp;</span>
+          <!-- <span class="animated zoomIn">B</span> -->
+          <span class=""><img class="animated fadeIn slow h-32 mb-0" src="./img/inbewegung.png" ></span>
+          <span class="animated zoomIn">e</span>
+          <span class="animated zoomIn">w</span>
+          <span class="animated zoomIn">e</span>
+          <span class="animated zoomIn">g</span>
+          <span class="animated zoomIn">u</span>
+          <span class="animated zoomIn">n</span>
+          <span class="animated zoomIn">g</span>
       </div>
       <p class="animated fadeIn text-ib-blue text-m md:text-xl">Praxis für Physiotherapie & Prävention</p>
     <div class="flex justify-center">
@@ -105,37 +106,46 @@
       </div>
     </div>
 
-  <div id="emp_card" class="md:w-1/2 mx-auto bg-white shadow-lg hover:shadow p-6 rounded-lg mb-6">
+  <div id="emp_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow p-6 rounded-lg mb-6">
     <div class="flex">
-      <img id="emp_image" src="./img/woman_icon.jpg" class="rounded-full h-32 w-32 mr-2" alt="">
+      <img id="emp_image" src="./img/emp_kristina.png" class=" h-32 mr-2" alt="">
       <div class="text-left">
-        <div id="emp_name" class="text-ib-lblue text-l">Kristina</div>
-        <div id="emp_text" class="text-black text-m">Ich binaasdas asd as asfaisb basibdaoisb basid b</div>
+        <div id="emp_name" class="text-ib-blue text-6xl pt-5">ristina</div>
+      </div>
+      <div id="emp_text" class="text-black text-m w-full ml-5 p-3">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
       </div>
     </div>
-      <div class="pills flex my-5 ">
-        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2">
-        Sport
+    <div class="flex justify-center">
+    <a  class="collapsible"><i id="teamAction" class="fas fa-chevron-down fa-2x text-ib-blue"></i></a>
+    </div>
+    <div id="emp_content" class="content">
+      <div class="pills my-5 ">
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2 my-2">
+        Weiterbildung für Knie
         </div>
-        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2">
-        Aufbau
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2 my-2">
+        Schulung für Säuglingsbehandlung
         </div>
-        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2">
-        Übungen
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2 my-2">
+        Fortbildung im Bereich Muskelkater
         </div>
       </div>
+    </div> 
   </div>
 
-      <div class="flex justify-center h-32">
+      <div class="flex justify-center h-32 mt-6">
         <div class="inline" >
-        <button><i id="Kristina" class="emp_btn fas fa-female mx-2 text-ib-red text-6xl" onclick="changeName(this)"></i></button>
-        <button><i id="Hanna" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
-        <button><i id="Petra" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
-        <button><i id="Anne" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
-        <button><i id="Sandra" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
-        <button><i id="Lea" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
-        <button><i id="Sophie" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
-        <button><i id="Jens" class="emp_btn fas fa-female mx-2 text-6xl" onclick="changeName(this)"></i></button>
+        <button><img id="kristina" src="./img/emp_kristina.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="britta" src="./img/emp_britta.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="lea" src="./img/emp_lea.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="Anne" src="./img/emp_kristina.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="Sandra" src="./img/emp_lea.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="Lea" src="./img/emp_britta.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="Sophie" src="./img/emp_lea.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="Jens" src="./img/emp_kristina.png" class="h-20 mx-2"  onclick="changeName(this)"></img></button>
+        <button><img id="Jens" src="./img/emp_britta.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
+        <button><img id="Jens" src="./img/emp_kristina.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
       </div>
     </div>
   </div>
@@ -145,6 +155,7 @@
 
 <section id="leistungen-section">
   <div class="container block mx-auto">
+
     <div class="h-64 bg-white flex items-center justify-center">
       <div>
       <p class="text-center text-ib-lblue text-xl md:text-5xl wow fadeInLeft">Leistungen</p>
@@ -152,118 +163,72 @@
       </div>
     </div>
 
-    <div class="block mb-4 px-10 md:flex">
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/1.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Yoga</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </p>
+  <div id="emp_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow rounded-lg mb-6 overflow-hidden">
+    <div class="flex">
+      <img class="h-full w-1/2" src="./img/1.jpg" alt="">
+      <div class="w-1/2 flex justify-center">
+        <div class="block p-5">
+        <div id="" class="text-ib-lblue text-3xl pt-5">
+          Yoga
         </div>
-        <div class="px-6 py-4">
-
-        </div>
-      </div>
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/2.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Sportverletzung</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="px-6 py-4">
-
+          <div class=" text-sm pt-5">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          </div>
         </div>
       </div>
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/3.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Massage</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </p>
-        </div>
-        <div class="px-6 py-4">
-
-        </div>
-      </div>
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/4.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Aufbau</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </p>
-        </div>
-        <div class="px-6 py-4">
-
-        </div>
-      </div>
-
     </div>
-
-    <div class="block mb-4 md:flex px-10">
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/1.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Yoga</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </p>
+    <div id="emp_content" class="content">
+      <div class="pills my-5 ">
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2 my-2">
+        Weiterbildung für Knie
         </div>
-        <div class="px-6 py-4">
-
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2 my-2">
+        Schulung für Säuglingsbehandlung
+        </div>
+        <div class="rounded-full border border-ib-red text-ib-red text-sm py-1 px-2 mx-2 my-2">
+        Fortbildung im Bereich Muskelkater
         </div>
       </div>
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/2.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Sportverletzung</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="px-6 py-4">
-
-        </div>
-      </div>
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/3.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Massage</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </p>
-        </div>
-        <div class="px-6 py-4">
-
-        </div>
-      </div>
-
-      <div class="max-w-sm md:w-1/4 rounded-lg overflow-hidden shadow-lg mx-4">
-        <img class="w-full" src="./img/4.jpg" alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <div class="font-bold text-l mb-2">Aufbau</div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </p>
-        </div>
-        <div class="px-6 py-4">
-
-        </div>
-      </div>
-
+    </div> 
   </div>
-  </div>
+
+    <div id="emp_card" class="md:w-2/3 mx-auto mb-6">
+      <div class="">
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Fuß
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Bein
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Rücken
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Kopf
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Baum
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Hals
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Bauch
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Wirbel
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Fuß
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Bein
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Rücken
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Kopf
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Baum
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Hals
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Bauch
+        </button>
+        <button id="" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2">Wirbel
+        </button>
+      </div>
+    </div>
+   </div>
 </section>
 
    <section id="contact-section">
@@ -298,8 +263,8 @@
       <div class="h-32 bg-white flex items-center justify-center shadow">
         <div>
           <p class="text-center text-ib-lblue text-xl md:text-2xl mb-2">In Bewegung</p>
-          <a href="" class="text-center text-ib-blue text-s md:text-s mx-2">Impressum</a>
-          <a href="" class="text-center text-ib-blue text-s md:text-s mx-2 mb-2">Datenschutzerklärung</a>
+          <a href="impressum.html" class="text-center text-ib-blue text-s md:text-s mx-2">Impressum</a>
+          <a href="datenschutz.html" class="text-center text-ib-blue text-s md:text-s mx-2 mb-2">Datenschutzerklärung</a>
         </div>
       </div>  
 
@@ -400,7 +365,9 @@
     emp_btn[i].classList.remove("text-ib-red")
     }
     employee.classList.add("text-ib-red")
-    document.getElementById('emp_name').innerHTML = employee.id;
+    document.getElementById('emp_name').innerHTML = employee.id.substring(1);;
+    document.getElementById('emp_image').src = "./img/emp_" + employee.id + ".png";
+    console.log("./img/" + employee.id + ".png");
     var emp_card = document.getElementById("emp_card");
     emp_card.classList.add("animated")
     emp_card.classList.add("faster")
@@ -410,8 +377,37 @@
       emp_card.classList.remove("fadeInLeft");
       emp_card.classList.remove("faster");
       }, 1000);
-    console.log(emp_image)
   }
+
+var coll = document.getElementsByClassName("collapsible");
+var chevron = document.getElementById("teamAction");
+var i;
+var chevronup = false;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = document.getElementById("emp_content");
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+chevron.addEventListener("click", function() {
+  if (chevronup === false) {
+      chevron.classList.remove("fa-chevron-down");
+      chevron.classList.remove("fas");
+      chevron.classList.add("fas");
+      chevron.classList.add("fa-chevron-up");
+      chevronup = true
+    } else {
+      chevron.classList.remove("fa-chevron-up");
+      chevron.classList.add("fa-chevron-down");
+      chevronup = false
+    };
+});
 
 </script>
 
