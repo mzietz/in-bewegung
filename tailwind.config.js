@@ -7,6 +7,7 @@ module.exports = {
 	      'ib-red': '#ff1654',
 	      'ib-lblue': '#70c1b3',
 	      'ib-llblue': '#b2dbbf',
+	      'ib-lllblue': '#dcefe2',
 	    },
     }
   },

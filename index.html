@@ -28,7 +28,14 @@
   <title>In Bewegung</title>
 </head>
 
-<body>
+<body class="">
+
+<div class='box'>
+          <div class='wave -one'></div>
+          <div class='wave -two'></div>
+          <div class='wave -three'></div>
+</div>
+
 
 <!-- Navbar -->
 
@@ -98,7 +105,7 @@
 
 <section id="team-section">
   <div class="container mx-auto">
-    <div class="h-64 bg-white flex items-center justify-center">
+    <div class="h-64 bg-transparent flex items-center justify-center">
       <div>
 
       <p class="text-center text-ib-red text-xl md:text-5xl wow fadeInLeft">Team</p>
@@ -106,7 +113,7 @@
       </div>
     </div>
 
-  <div id="emp_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow p-6 rounded-lg mb-6">
+  <div id="emp_card" class="md:w-2/3 mx-auto bg-white shadow hover:shadow-lg px-6 pt-6 pb-3 rounded-lg mb-6">
     <div class="flex">
       <img id="emp_image" src="./img/ib_k.png" class=" h-32 mr-2" alt="">
       <div class="text-left">
@@ -120,7 +127,7 @@
     <a  class="collapsible"><i id="teamAction" class="fas fa-chevron-down fa-2x text-ib-blue"></i></a>
     </div>
     <div id="emp_content" class="content">
-      <div id="emp_education" class="pills my-5 ">
+      <div id="emp_education" class="pills mt-5 ">
       </div>
     </div> 
   </div>
@@ -147,7 +154,7 @@
 <section id="leistungen-section">
   <div class="container block mx-auto">
 
-    <div class="h-64 bg-white flex items-center justify-center">
+    <div class="h-64 bg-transparent flex items-center justify-center">
       <div>
       <p class="text-center text-ib-lblue text-xl md:text-5xl wow fadeInLeft">Leistungen</p>
       <p class="text-center text-ib-lblue text-s md:text-m wow fadeInLeft">Folgende Leistungen bieten wir an</p>
@@ -156,11 +163,11 @@
 
   <div id="service_detail_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow rounded-lg mb-6 overflow-hidden">
     <div class="flex">
-      <img id="service_image" class="h-full w-1/2" src="./img/1.jpg" alt="">
-      <div class="w-1/2 flex justify-center">
+      <!-- <img id="service_image" class="h-full w-1/2" src="./img/1.jpg" alt=""> -->
+      <div class="flex justify-center">
         <div class="block p-5">
-        <div id="service_name" class="text-ib-lblue text-3xl pt-5">
-          Yoga
+        <div id="service_name" class="text-ib-blue text-3xl text-center">
+          Krankengymnastik
         </div>
           <div id="service_description" class=" text-sm pt-5">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
@@ -211,7 +218,7 @@
 
    <section id="contact-section">
     <div class="container mx-auto">
-      <div class="h-64 bg-white flex items-center justify-center">
+      <div class="h-64 bg-transparent flex items-center justify-center">
         <div>
           <p class="text-center text-ib-blue text-xl md:text-5xl wow fadeInLeft">Kontakt</p>
           <p class="text-center text-ib-blue text-s md:text-m wow fadeInLeft">So erreichen Sie uns</p>
@@ -238,7 +245,7 @@
   </section>
 
 <footer id="footer" class="w-full">
-  <div class="h-32 bg-white flex items-center justify-center shadow">
+  <div class="h-32 bg-transparent flex items-center justify-center shadow">
     <div>
       <p class="text-center text-ib-lblue text-xl md:text-2xl mb-2">In Bewegung</p>
       <a href="impressum.html" class="text-center text-ib-blue text-s md:text-s mx-2">Impressum</a>
@@ -366,6 +373,23 @@
         },
     ];
 
+    var coll = document.getElementsByClassName("collapsible");
+    var chevron = document.getElementById("teamAction");
+    var i;
+
+
+    // this.classList.toggle("active");
+    var content = document.getElementById("emp_content");
+      content.style.maxHeight = null;
+      // content.style.maxHeight = content.scrollHeight + "px";
+
+
+    console.log()
+    chevron.addEventListener("click", function() {
+          chevron.classList.remove("fa-chevron-up");
+          chevron.classList.add("fa-chevron-down");
+    });
+
 
     var emp_btn = document.querySelectorAll(".emp_btn");
     for (var i = 0; i < emp_btn.length; i++) {
@@ -376,7 +400,6 @@
     for (var i = 0; i < emp_list.length; i++){
       if (emp_list[i].name == employee.id) {
         var active_emp = emp_list[i];
-        // console.log(active_emp)
       }
     }
 
@@ -387,15 +410,12 @@
     var active_emp_education = document.getElementById('emp_education');
 
     var old_education = document.querySelectorAll('.education');
-    console.log(old_education)
 
     for (var i = 0; i < old_education.length; i++){
-      console.log(old_education[i])
       active_emp_education.parentNode.removeChild(old_education[i]);
     }
 
     for (var i = 0; i < active_emp.education.length; i++){
-      // console.log(active_emp.education[i])
       var newDiv = document.createElement("div");
       newDiv.appendChild(document.createTextNode(active_emp.education[i]));
       newDiv.classList.add('rounded-full');
@@ -403,7 +423,8 @@
       newDiv.classList.add('border-ib-red');
       newDiv.classList.add('text-ib-red');
       newDiv.classList.add('py-1');
-      newDiv.classList.add('m-2');
+      newDiv.classList.add('mt-2');
+      newDiv.classList.add('mx-2');
       newDiv.classList.add('px-2');
       newDiv.classList.add('education');
       var emp_content = document.getElementById('emp_content');
@@ -427,77 +448,77 @@
     var service_list = [
         {
           name: 'Krankengymnastik',
-          description: 'foot desciption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/1.jpg"
         },
         {
           name: 'Bewegungstherapie',
-          description: 'leg desciptipp', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/2.jpg"
         },
         {
           name: 'Physikalische Therapie',
-          description: 'back descrprtir', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/3.jpg"
         },
         {
           name: 'Thermische Therapie',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Mechanische Therapie',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Hydrotherapie',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Massage',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Beckenbodenschule',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Rückbildungsgymnastik',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Fitness in der Schwangerschaft',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Bobath',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Brunkow',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Geriatrie',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Hippotherapie',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
         {
           name: 'Lymphdrainage',
-          description: 'head descriüption', 
+          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
           image: "./img/4.jpg"
         },
     ];
@@ -522,7 +543,7 @@
 
     document.getElementById('service_name').innerHTML = active_service.name;
     document.getElementById('service_description').innerHTML = active_service.description;
-    document.getElementById('service_image').src = active_service.image;
+    // document.getElementById('service_image').src = active_service.image;
 
     var service_card = document.getElementById("service_detail_card");
     service_card.classList.add("animated")
@@ -550,7 +571,8 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px";
     }
   });
-}
+};
+
 chevron.addEventListener("click", function() {
   if (chevronup === false) {
       chevron.classList.remove("fa-chevron-down");

@@ -7,8 +7,14 @@
 /*#f3ffbd beige*/
 /*#ff1654 red*/
 
+
+
 body {
-  background-color: #FFF;
+/*background-color: #dcefe2;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23247ba0' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23f3ffbd' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%233389a4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23f5d0a8' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%234297a8' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f8a293' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2352a5ab' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23fa737e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2361b3af' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23fd4569' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2370c1b3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23ff1654' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;*/
+  /*background-color: #dcefe2;*/
   color: #333;
   font-family: 'Montserrat', sans-serif;
   /*background-color: #f3ffbd;*/
@@ -100,4 +106,45 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.box {
+  position: fixed;
+  top: 70%;
+  /*transform: rotate(80deg); */
+  /*left: 0;*/
+  left: 30%;
+  z-index: -1;
+}
+
+.wave {
+  position: absolute;
+  opacity: .4;
+  width: 1900px;
+  height: 1700px;
+  /*margin-left: 500px;*/
+  /*margin-top: -800px;*/
+  border-radius: 43%;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
+.wave.-one {
+  animation: rotate 15000ms infinite linear;
+  opacity: .1;
+  background: #247ba0;
+}
+
+.wave.-two {
+  animation: rotate 11000ms infinite linear;
+  opacity: .1;
+  background: #70c1b3;
+}
+
+.wave.-three {
+  animation: rotate 14100ms infinite linear;
+  background-color: #b2dbbf;
 }
