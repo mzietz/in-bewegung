@@ -108,7 +108,7 @@
     <div class="h-64 bg-transparent flex items-center justify-center">
       <div class="">
 
-      <p class="text-center text-ib-lblue text-xl md:text-6xl wow fadeInLeft ">Team</p>
+      <p class="text-center text-ib-lblue text-xl md:text-5xl wow fadeInLeft ">Team</p>
       <p class="text-center text-ib-lblue text-s md:text-m wow fadeInLeft">Unsere Mitarbeiterinnen im Portrait</p>
       </div>
     </div>
@@ -279,7 +279,17 @@
 
 <script>
 
-  new WOW().init();
+  // new WOW().init();
+  wow = new WOW(
+  {
+  boxClass:     'wow',      // default
+  animateClass: 'animated', // default
+  offset:       120,          // default
+  mobile:       true,       // default
+  live:         true        // default
+}
+)
+wow.init();
 
   var scrollpos = window.scrollY;
   var header = document.getElementById("header");
