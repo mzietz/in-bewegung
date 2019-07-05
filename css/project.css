@@ -110,18 +110,18 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
 
 .box {
   position: fixed;
-  top: 70%;
+  top: 105%;
   /*transform: rotate(80deg); */
   /*left: 0;*/
-  left: 30%;
+  left: -90%;
   z-index: -1;
 }
 
 .wave {
   position: absolute;
   opacity: .4;
-  width: 1900px;
-  height: 1700px;
+  width: 300vw;
+  height: 280vw;
   /*margin-left: 500px;*/
   /*margin-top: -800px;*/
   border-radius: 43%;
@@ -147,4 +147,8 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
 .wave.-three {
   animation: rotate 14100ms infinite linear;
   background-color: #b2dbbf;
+}
+
+.h-28 {
+	height: 7rem;
 }
