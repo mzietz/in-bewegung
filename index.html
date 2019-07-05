@@ -31,9 +31,9 @@
 <body class="">
 
 <div class='box'>
-          <div class='wave -one'></div>
-          <div class='wave -two'></div>
-          <div class='wave -three'></div>
+          <div id="wave1" class='wave -one'></div>
+          <div id="wave2" class='wave -two'></div>
+          <div id="wave3" class='wave -three'></div>
 </div>
 
 
@@ -304,6 +304,13 @@ wow.init();
   /*Apply classes for slide in bar*/
   scrollpos = window.scrollY;
 
+    var deg_1 = 80 + scrollpos / 25
+    var deg_2 = 60 + scrollpos / 25
+    var deg_3 = 150 + scrollpos / 25
+    document.getElementById("wave1").style.transform = "rotate(" + deg_1 + "deg)";
+    document.getElementById("wave2").style.transform = "rotate(" + deg_2 + "deg)";
+    document.getElementById("wave3").style.transform = "rotate(" + deg_3 + "deg)";
+
     if(scrollpos > 50){
     // wenn unten
     header.classList.add("text-ib-blue");
@@ -394,7 +401,6 @@ wow.init();
       // content.style.maxHeight = content.scrollHeight + "px";
 
 
-    console.log()
     chevron.addEventListener("click", function() {
           chevron.classList.remove("fa-chevron-up");
           chevron.classList.add("fa-chevron-down");
