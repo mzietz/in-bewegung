@@ -133,22 +133,25 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
 }
 
 .wave.-one {
-  /*animation: rotate 15000ms infinite linear;*/
   transform: rotate(80deg);
-  opacity: .1;
+  animation: rotate 52000ms infinite linear;
+  will-change: transform;
+  opacity: .2;
   background: #247ba0;
 }
 
 .wave.-two {
-  /*animation: rotate 11000ms infinite linear;*/
-  transform: rotate(60deg);
-  opacity: .1;
+  transform: rotate(95deg);
+  animation: rotate 45000ms infinite linear;
+  will-change: transform;
+  opacity: .2;
   background: #70c1b3;
 }
 
 .wave.-three {
-  /*animation: rotate 14100ms infinite linear;*/
   transform: rotate(150deg);
+  animation: rotate 50100ms infinite linear;
+  will-change: transform;
   background-color: #b2dbbf;
 }
 

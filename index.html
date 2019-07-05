@@ -284,7 +284,7 @@
   {
   boxClass:     'wow',      // default
   animateClass: 'animated', // default
-  offset:       120,          // default
+  offset:       150,          // default
   mobile:       true,       // default
   live:         true        // default
 }
@@ -304,12 +304,12 @@ wow.init();
   /*Apply classes for slide in bar*/
   scrollpos = window.scrollY;
 
-    var deg_1 = 80 + scrollpos / 25
-    var deg_2 = 60 + scrollpos / 25
-    var deg_3 = 150 + scrollpos / 25
-    document.getElementById("wave1").style.transform = "rotate(" + deg_1 + "deg)";
-    document.getElementById("wave2").style.transform = "rotate(" + deg_2 + "deg)";
-    document.getElementById("wave3").style.transform = "rotate(" + deg_3 + "deg)";
+    // var deg_1 = 80 + scrollpos / 25
+    // var deg_2 = 60 + scrollpos / 25
+    // var deg_3 = 150 + scrollpos / 25
+    // document.getElementById("wave1").style.transform = "rotate(" + deg_1 + "deg)";
+    // document.getElementById("wave2").style.transform = "rotate(" + deg_2 + "deg)";
+    // document.getElementById("wave3").style.transform = "rotate(" + deg_3 + "deg)";
 
     if(scrollpos > 50){
     // wenn unten
@@ -401,10 +401,10 @@ wow.init();
       // content.style.maxHeight = content.scrollHeight + "px";
 
 
-    chevron.addEventListener("click", function() {
+    // chevron.addEventListener("click", function() {
           chevron.classList.remove("fa-chevron-up");
           chevron.classList.add("fa-chevron-down");
-    });
+    // });
 
 
     var emp_btn = document.querySelectorAll(".emp_btn");
