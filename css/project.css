@@ -117,18 +117,14 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
   position: fixed;
   top: 40%;
   left: 55%;
-  /*transform: rotate(80deg); */
-  /*left: 0;*/
   z-index: -1;
 }
 
 .wave {
   position: absolute;
   /*opacity: .4;*/
-  width: 160vw;
+  width: 150vw;
   height: 135vw;
-  /*margin-left: 500px;*/
-  /*margin-top: -800px;*/
   border-radius: 50%;
 }
 
@@ -139,19 +135,16 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
 
 .wave.-one {
   /*transform: rotate(80deg);*/
-  animation: rotate 20000ms infinite linear;
+  animation: rotate 27000ms infinite linear;
   will-change: transform;
-  /*opacity: .2;*/
-  background: #247ba0;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  background: #b2dbbf;
 }
 
 .wave.-two {
   /*transform: rotate(120deg);*/
-  animation: rotate 27000ms infinite linear;
+  animation: rotate 23000ms infinite linear;
   will-change: transform;
-  /*opacity: .2;*/
-  background: #b2dbbf;
+  background: #70c1b3;
 }
 
 .wave.-three {
@@ -160,7 +153,7 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
   /*left: -10%;*/
   /*width: 90%;*/
   /*height: 90%;*/
-  animation: rotate 29000ms infinite linear;
+  animation: rotate 16000ms infinite linear;
   will-change: transform;
-  background-color: #f3ffbd;
+  background-color: #247ba0; /*f3ffbd*/
 }
