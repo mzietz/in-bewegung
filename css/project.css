@@ -14,7 +14,7 @@ body {
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23247ba0' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23f3ffbd' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%233389a4' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23f5d0a8' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%234297a8' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f8a293' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2352a5ab' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23fa737e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2361b3af' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23fd4569' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2370c1b3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23ff1654' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
 background-attachment: fixed;
 background-size: cover;*/
-  /*background-color: #dcefe2;*/
+  background-color: #e6f5ff;
   color: #333;
   font-family: 'Montserrat', sans-serif;
   /*background-color: #f3ffbd;*/
@@ -156,4 +156,16 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
   animation: rotate 16000ms infinite linear;
   will-change: transform;
   background-color: #247ba0; /*f3ffbd*/
+}
+
+.hellblau{
+  background-color: #e6f5ff;
+}
+
+.shadow-custom {
+box-shadow: 3px 3px 6px 0px rgba(166,166,166,1);
+}
+
+.shadow-custom:hover {
+box-shadow: 1px 1px 2px 0px rgba(166,166,166,1);
 }

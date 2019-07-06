@@ -39,13 +39,13 @@
 
 <!-- Navbar -->
 
-<nav id="header" class="fixed w-full z-30 top-0 text-transparent bg-white">
+<nav id="header" class="fixed w-full z-30 top-0 text-transparent bg-transparent">
 
   <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       
     <div id="brandname" class="pl-4 flex items-center">
       <a class="no-underline hover:no-underline text-2xl lg:text-4xl tracking-widest"  href="#"> 
-       In Bewegung
+       <!-- In Bewegung -->
       </a>
     </div>
 
@@ -55,18 +55,18 @@
       </button>
     </div>
 
-    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-      <ul class="list-reset lg:flex justify-end flex-1 items-center">
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 animated fadeInDown" id="nav-content">
+      <ul class="list-reset lg:flex justify-end flex-1 items-center mt-2">
         <li class="mr-5">
-      <button id="navAction" href="#team-section" class="bg-white hover:bg-ib-blue text-ib-blue font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-blue">Team
+      <button id="navAction" href="#team-section" class="bg-white text-ib-blue font-semibold py-2 px-4 rounded-full border border-ib-blue shadow-custom">Team
       </button>
         </li>
         <li class="mr-5">
-      <button id="navAction" href="#leistungen-section" class="bg-white hover:bg-ib-blue text-ib-blue font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-blue">Leistungen
+      <button id="navAction" href="#leistungen-section" class="bg-white text-ib-blue font-semibold py-2 px-4 rounded-full border border-ib-blue shadow-custom">Leistungen
       </button>
         </li>
         <li class="mr-5">
-      <button id="navAction" href="#contact-section" class="bg-white hover:bg-ib-blue text-ib-blue font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-blue">Kontakt
+      <button id="navAction" href="#contact-section" class="bg-white text-ib-blue font-semibold py-2 px-4 rounded-full border border-ib-blue shadow-custom">Kontakt
       </button>
         </li>
       </ul>
@@ -74,8 +74,8 @@
   </div>
 </nav>
 
-<div id="shadow" class="fixed w-full z-20 top-0 text-transparent bg-white nav-height">
-</div>
+<!-- <div id="shadow" class="fixed w-full z-20 top-0 text-transparent hellblau nav-height">
+</div> -->
 
 <section class="top-section mb-4">
   <div class="h-screen flex justify-center items-center">
@@ -113,7 +113,7 @@
       </div>
     </div>
 
-  <div id="emp_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow px-6 pt-6 pb-3 rounded-lg mb-6 border-b-4 border-ib-red">
+  <div id="emp_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow px-6 pt-6 pb-3 rounded-lg mb-6">
     <div class="flex">
       <img id="emp_image" src="./img/ib_k.png" class=" h-28 " alt="">
       <div class="text-left">
@@ -127,9 +127,11 @@
     <a  class="collapsible"><i id="teamAction" class="fas fa-chevron-down fa-2x text-ib-blue"></i></a>
     </div>
     <div id="emp_content" class="content">
-      <div id="emp_education" class="pills mt-5 ">
+      <div id="emp_education" class="">
+        <!-- <div class="rounded-full border border-ib-red py-1 mt-2 mx-2 px-2 education ">asd</div> -->
       </div>
-    </div> 
+    </div>
+    <!-- <div class="gradient"></div>  -->
   </div>
 
       <div class="flex justify-center h-32 mt-6">
@@ -161,7 +163,7 @@
       </div>
     </div>
 
-  <div id="service_detail_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow rounded-lg mb-6 overflow-hidden border-b-4 border-ib-red">
+  <div id="service_detail_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow rounded-lg mb-6 overflow-hidden">
     <div class="flex">
       <!-- <img id="service_image" class="h-full w-1/2" src="./img/1.jpg" alt=""> -->
       <div class="flex justify-center">
@@ -291,11 +293,44 @@
 )
 wow.init();
 
+$( document ).ready(function() {
+
+    var education_k = ["Hydrotherapie ", "Fitness in der Schwangerschaft", 'Beckenbodenschule', "Rückbildungsgymnastik", "Brunkow", "Bobath", "Geriatrie"]
+
+    var active_emp_education = document.getElementById('emp_education');
+
+    var old_education = document.querySelectorAll('.education');
+
+    for (var i = 0; i < old_education.length; i++){
+      active_emp_education.parentNode.removeChild(old_education[i]);
+    }
+
+    for (var i = 0; i < education_k.length; i++){
+      var newDiv = document.createElement("div");
+      newDiv.appendChild(document.createTextNode(education_k[i]));
+      newDiv.classList.add('rounded-full');
+      newDiv.classList.add('border');
+      newDiv.classList.add('border-ib-red');
+      newDiv.classList.add('text-ib-red');
+      newDiv.classList.add('p-2');
+      newDiv.classList.add('px-4');
+      newDiv.classList.add('m-2');
+      // newDiv.classList.add('font-semibold');
+      newDiv.classList.add('hover:bg-ib-red');
+      newDiv.classList.add('hover:text-white');
+      newDiv.classList.add('hover:border-transparent');
+      newDiv.classList.add('education');
+      var emp_content = document.getElementById('emp_content');
+      emp_content.insertBefore(newDiv, active_emp_education); 
+    }
+});
+
+
   var scrollpos = window.scrollY;
   var header = document.getElementById("header");
   var navcontent = document.getElementById("nav-content");
   var navaction = document.querySelectorAll("#navAction");
-  var shadow = document.getElementById("shadow");
+  // var shadow = document.getElementById("shadow");
   var brandname = document.getElementById("brandname");
   var toToggle = document.querySelectorAll(".toggleColour");
 
@@ -304,20 +339,13 @@ wow.init();
   /*Apply classes for slide in bar*/
   scrollpos = window.scrollY;
 
-    // var deg_1 = 80 + scrollpos / 25
-    // var deg_2 = 60 + scrollpos / 25
-    // var deg_3 = 150 + scrollpos / 25
-    // document.getElementById("wave1").style.transform = "rotate(" + deg_1 + "deg)";
-    // document.getElementById("wave2").style.transform = "rotate(" + deg_2 + "deg)";
-    // document.getElementById("wave3").style.transform = "rotate(" + deg_3 + "deg)";
-
     if(scrollpos > 50){
     // wenn unten
     header.classList.add("text-ib-blue");
-    shadow.classList.add("animated");
-    shadow.classList.add("fadeIn");
-    shadow.classList.add("faster");
-    shadow.classList.add("shadow-md")
+    // shadow.classList.add("animated");
+    // shadow.classList.add("fadeIn");
+    // shadow.classList.add("faster");
+    // shadow.classList.add("shadow-md")
 
     brandname.classList.add("animated");
     brandname.classList.add("fadeInLeft");
@@ -335,10 +363,10 @@ wow.init();
     // wenn oben
     header.classList.add("text-transparent");
     header.classList.remove("text-ib-blue");
-    shadow.classList.remove("animated");
-    shadow.classList.remove("fadeIn");
-    shadow.classList.remove("faster");
-    shadow.classList.remove("shadow-md")
+    // shadow.classList.remove("animated");
+    // shadow.classList.remove("fadeIn");
+    // shadow.classList.remove("faster");
+    // shadow.classList.remove("shadow-md")
 
     brandname.classList.remove("animated");
     brandname.classList.remove("fadeInLeft");
@@ -349,7 +377,7 @@ wow.init();
      toToggle[i].classList.remove("text-gray-800");
     }
     
-    header.classList.remove("shadow");
+    // header.classList.remove("shadow");
     navcontent.classList.remove("bg-white");
     navcontent.classList.add("bg-gray-100");
     
@@ -438,10 +466,14 @@ wow.init();
       newDiv.classList.add('border');
       newDiv.classList.add('border-ib-red');
       newDiv.classList.add('text-ib-red');
-      newDiv.classList.add('py-1');
-      newDiv.classList.add('mt-2');
-      newDiv.classList.add('mx-2');
-      newDiv.classList.add('px-2');
+      newDiv.classList.add('p-2');
+      newDiv.classList.add('px-4');
+      newDiv.classList.add('m-2');
+      newDiv.classList.add('font-semibold');
+      newDiv.classList.add('hover:bg-ib-red');
+      newDiv.classList.add('hover:text-white');
+      newDiv.classList.add('hover:border-transparent');
+
       newDiv.classList.add('education');
       var emp_content = document.getElementById('emp_content');
       emp_content.insertBefore(newDiv, active_emp_education); 

@@ -32,13 +32,13 @@
 
 <!-- Navbar -->
 
-<nav id="header" class=" w-full top-0 text-transparent bg-white shadow-md">
+<nav id="header" class="fixed w-full z-30 top-0 text-transparent bg-transparent">
 
-  <div class=" w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
       
     <div id="brandname" class="pl-4 flex items-center">
-      <a class="text-ib-blue no-underline hover:no-underline text-2xl lg:text-4xl tracking-widest"  href="#"> 
-       In Bewegung
+      <a class="no-underline hover:no-underline text-2xl lg:text-4xl tracking-widest"  href="#"> 
+       <!-- In Bewegung -->
       </a>
     </div>
 
@@ -48,10 +48,10 @@
       </button>
     </div>
 
-    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-      <ul class="list-reset lg:flex justify-end flex-1 items-center">
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 animated fadeInDown" id="nav-content">
+      <ul class="list-reset lg:flex justify-end flex-1 items-center mt-4">
         <li class="mr-5">
-      <a href="index.html" class="bg-white hover:bg-ib-blue text-ib-blue font-semibold hover:text-white py-3 px-4 hover:border-transparent rounded-full border border-ib-blue">Zurück zur Seite
+      <a href="index.html" class="bg-white text-ib-blue font-semibold py-3 px-4 rounded-full border border-ib-blue shadow-custom">Zurück
       </a>
         </li>
       </ul>
@@ -59,14 +59,15 @@
   </div>
 </nav>
 
-
+<div class="h-20">
+  </div>
 
 <section id="datenschutz-section">
   <div class="container mx-auto">
 
-  <div class="">
-    <div class="text-center text-4xl my-5 text-ib-blue">Datenschutzerklärung</div>
-    <div class="text-center">
+  <div id="service_list_card" class="md:w-2/3 mx-auto mb-6 bg-white rounded-lg shadow-lg p-4">
+    <div class="text-center text-4xl my-5 text-ib-blue ">Datenschutzerklärung</div>
+    <div class="px-12 pb-6">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
 
         Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
@@ -80,7 +81,7 @@
 </section>
 
 <footer id="footer" class="w-full">
-  <div class="h-32 bg-white flex items-center justify-center shadow">
+  <div class="h-32 bg-transparent flex items-center justify-center">
     <div>
       <p class="text-center text-ib-lblue text-xl md:text-2xl mb-2">In Bewegung</p>
       <a href="impressum.html" class="text-center text-ib-blue text-s md:text-s mx-2">Impressum</a>
