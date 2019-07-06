@@ -108,23 +108,28 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
   transition: max-height 0.2s ease-out;
 }
 
+
+
+.h-28 {
+	height: 7rem;
+}
 .box {
   position: fixed;
-  top: 105%;
+  top: 40%;
+  left: 55%;
   /*transform: rotate(80deg); */
   /*left: 0;*/
-  left: -90%;
   z-index: -1;
 }
 
 .wave {
   position: absolute;
-  opacity: .4;
-  width: 300vw;
-  height: 280vw;
+  /*opacity: .4;*/
+  width: 160vw;
+  height: 135vw;
   /*margin-left: 500px;*/
   /*margin-top: -800px;*/
-  border-radius: 43%;
+  border-radius: 50%;
 }
 
 @keyframes rotate {
@@ -133,28 +138,29 @@ background: linear-gradient(180deg, rgba(112,193,179,1) 0%, rgba(255,255,255,1) 
 }
 
 .wave.-one {
-  transform: rotate(80deg);
-  animation: rotate 52000ms infinite linear;
+  /*transform: rotate(80deg);*/
+  animation: rotate 20000ms infinite linear;
   will-change: transform;
-  opacity: .2;
+  /*opacity: .2;*/
   background: #247ba0;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .wave.-two {
-  transform: rotate(95deg);
-  animation: rotate 45000ms infinite linear;
+  /*transform: rotate(120deg);*/
+  animation: rotate 27000ms infinite linear;
   will-change: transform;
-  opacity: .2;
-  background: #70c1b3;
+  /*opacity: .2;*/
+  background: #b2dbbf;
 }
 
 .wave.-three {
-  transform: rotate(150deg);
-  animation: rotate 50100ms infinite linear;
+  /*transform: rotate(150deg);*/
+  /*top: -10%;*/
+  /*left: -10%;*/
+  /*width: 90%;*/
+  /*height: 90%;*/
+  animation: rotate 29000ms infinite linear;
   will-change: transform;
-  background-color: #b2dbbf;
-}
-
-.h-28 {
-	height: 7rem;
+  background-color: #f3ffbd;
 }
