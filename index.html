@@ -43,18 +43,19 @@
 
   <div class="w-full container flex flex-wrap justify-end mt-0 py-2">
 
-    <div class=" mt-2 lg:mt-0 bg-transparent text-black p-4 z-20 animated fadeInDown" id="nav-content">
-      <ul class="list-reset flex justify-end flex-1 items-center mt-2">
-        <li class="mr-5">
-      <button id="navAction" href="#team-section" class="bg-white text-ib-blue font-semibold py-2 px-4 rounded-full border border-ib-blue shadow-custom">Team
+    <div class="">
+      <ul class="list-reset flex justify-end mt-2">
+        <li class="mr-5 my-2">
+      <button id="navAction" href="#team-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red py-2 px-4">Team
       </button>
         </li>
-        <li class="mr-5">
-      <button id="navAction" href="#leistungen-section" class="bg-white text-ib-blue font-semibold py-2 px-4 rounded-full border border-ib-blue shadow-custom">Leistungen
+        <li class="mr-5 my-2">
+      <button id="navAction" href="#leistungen-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red py-2 px-4">Leistungen
       </button>
         </li>
-        <li class="mr-5">
-      <button id="navAction" href="#contact-section" class="bg-white text-ib-blue font-semibold py-2 px-4 rounded-full border border-ib-blue shadow-custom">Kontakt
+
+        <li class="mr-5 my-2">
+      <button id="navAction" href="#contact-section" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red py-2 px-4">Kontakt
       </button>
         </li>
       </ul>
@@ -67,13 +68,14 @@
 
 <section class="top-section mb-4">
   <div class="h-screen flex justify-center items-center">
+    <div id="front_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow px-6 pt-6 pb-3 rounded-lg mb-6 flex justify-center">
     <div class="wrapper">
       <div class="text-area animation-area text-ib-blue text-xl md:text-5xl">
           <span class="animated zoomIn">I</span>
           <span class="animated zoomIn">n</span>
           <span class="animated zoomIn">&nbsp;</span>
           <!-- <span class="animated zoomIn">B</span> -->
-          <span class=""><img class="animated fadeIn slow h-32 mb-0" src="./img/inbewegung.png" ></span>
+          <span class=""><img class="animated fadeIn slow h-32 mb-0" src="./img/inbewegung_red.png" ></span>
           <span class="animated zoomIn">e</span>
           <span class="animated zoomIn">w</span>
           <span class="animated zoomIn">e</span>
@@ -83,8 +85,9 @@
           <span class="animated zoomIn">g</span>
       </div>
       <p class="animated fadeIn text-ib-blue text-m md:text-xl">Praxis für Physiotherapie & Prävention</p>
-    <div class="flex justify-center">
-    <a id="navAction" href="#team-section"><i class="fas fa-chevron-down fa-2x text-ib-blue mt-20 animated fadeIn"></i></a>
+      <div class="flex justify-center">
+      <a id="navAction" href="#team-section"><i class="fas fa-chevron-down fa-2x text-ib-blue mt-20 animated fadeIn"></i></a>
+      </div>
     </div>
     </div>
   </div>
@@ -95,7 +98,6 @@
   <div class="container mx-auto">
     <div class="h-64 bg-transparent flex items-center justify-center">
       <div class="">
-
       <p class="text-center text-ib-lblue text-xl md:text-5xl wow fadeInLeft ">Team</p>
       <p class="text-center text-ib-lblue text-s md:text-m wow fadeInLeft">Unsere Mitarbeiterinnen im Portrait</p>
       </div>
@@ -103,38 +105,43 @@
 
   <div id="emp_card" class="md:w-2/3 mx-auto bg-white shadow-lg hover:shadow px-6 pt-6 pb-3 rounded-lg mb-6">
     <div class="flex">
-      <img id="emp_image" src="./img/ib_k.png" class=" h-28 " alt="">
-      <div class="text-left">
-        <div id="emp_name" class="text-ib-blue text-5xl pt-6">ristina</div>
+      <img id="emp_image" src="./img/0.png" class=" h-32 " alt="">
+      <div class="px-5 pt-2">
+        <div id="emp_name" class="text-ib-blue text-4xl mr-5">
+          Kristina Hochuli
+        </div>
+      <div id="emp_description" class="text-sm w-full mr-5">
+        Inhaberin der Praxis In Bewegung. Ich wollte als Kind unbedingt HEBAMME werden, oder RICHTERIN, oder aber BIBLIOTHEKARIN 
       </div>
-      <div id="emp_description" class="text-black text-m w-full ml-5 p-3">
-        Ich wollte mal Astronautin werden
       </div>
     </div>
     <div class="flex justify-center">
-    <a  class="collapsible"><i id="teamAction" class="fas fa-chevron-down fa-2x text-ib-blue"></i></a>
+    <a  class="collapsible"><i id="teamAction" class="fas fa-chevron-down fa-2x text-ib-red"></i></a>
     </div>
     <div id="emp_content" class="content">
       <div id="emp_education" class="">
-        <!-- <div class="rounded-full border border-ib-red py-1 mt-2 mx-2 px-2 education ">asd</div> -->
       </div>
     </div>
-    <!-- <div class="gradient"></div>  -->
   </div>
-
-      <div class="flex justify-center h-32 mt-6">
-        <div class="inline" >
-        <button><img id="Kristina" src="./img/ib_k.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Britta" src="./img/ib_b.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Lea" src="./img/ib_l.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Hanna" src="./img/ib_k.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Sandra" src="./img/ib_k.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Lea" src="./img/ib_k.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Sophie" src="./img/ib_k.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Jens" src="./img/ib_k.png" class="h-20 mx-2"  onclick="changeName(this)"></img></button>
-        <button><img id="Jens" src="./img/ib_k.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-        <button><img id="Jens" src="./img/ib_k.png" class="h-20 mx-2" onclick="changeName(this)"></img></button>
-      </div>
+  <div class="mt-6">
+    <div class="w-full flex justify-center">
+      <button><img id="Kristina Hochuli" src="./img/0.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Isabel Bretschneider" src="./img/1.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Eva Lammers" src="./img/2.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Isabel Gosebruch" src="./img/3.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Lisa Tornow" src="./img/4.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Monika Kerler" src="./img/5.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Katrin Krieg" src="./img/6.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+    </div>
+    <div class="w-full flex justify-center">
+      <button><img id="Lea Harms" src="./img/7.png" class="h-24 mx-3"  onclick="changeName(this)"></button>
+      <button><img id="Maja Sperlich" src="./img/8.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Marilena Heyl" src="./img/9.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Anke Hofmann" src="./img/10.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Lisa Ledder" src="./img/11.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Christiane Specht" src="./img/12.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+      <button><img id="Max Frömming" src="./img/13.png" class="h-24 mx-3" onclick="changeName(this)"></button>
+    </div>
     </div>
   </div>
 </section>
@@ -157,10 +164,10 @@
       <div class="flex justify-center">
         <div class="block p-5">
         <div id="service_name" class="text-ib-blue text-3xl text-left">
-          Krankengymnastik
+          Akupressur
         </div>
           <div id="service_description" class=" text-sm pt-5">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Aus dem Japanischen: "Yin Shin Do", zu Deutsch: "Sanfte Form der Akupunktur". Auf der Körperfläche sind Energiepunkte netzartig verteilt und durch Meridiane miteinander verbunden, die mit inneren Organen in Verbindung stehen. Durch Druck mit dem Daumen oder den Fingern auf die Akupressurpunkte sollen Funktionsstörungen der zugehörigen inneren Organe behoben werden. Anwendung bei Kopf-, Nacken-, oder Rückenschmerzen, Weichteilrheumatismus oder funktionellen Störungen.
           </div>
         </div>
       </div>
@@ -169,11 +176,11 @@
 
     <div id="service_list_card" class="md:w-2/3 mx-auto mb-6">
       <div class="">
-        <button id="Krankengymnastik" onclick="changeService(this)" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2 service_btn">Krankengymnastik
+        <button id="Akupressur" onclick="changeService(this)" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2 service_btn">Akupressur
         </button>
-        <button id="Bewegungstherapie" onclick="changeService(this)" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2 service_btn">Bewegungstherapie
+        <button id="Atemtherapie" onclick="changeService(this)" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2 service_btn">Atemtherapie
         </button>
-        <button id="Physikalische Therapie" onclick="changeService(this)" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2 service_btn">Physikalische Therapie
+        <button id="Beckenbodengymnastik" onclick="changeService(this)" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2 service_btn">Beckenbodengymnastik
         </button>
         <button id="Thermische Therapie" onclick="changeService(this)" class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-2 my-2 service_btn">Thermische Therapie
         </button>
@@ -251,7 +258,7 @@
       var $anchor = $(this);
 
       $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top - 50
+        scrollTop: $($anchor.attr('href')).offset().top + 50
       }, 1500, 'easeOutQuad');
       
       // if you don't want to use the easing effects:
@@ -283,7 +290,7 @@ wow.init();
 
 $( document ).ready(function() {
 
-    var education_k = ["Hydrotherapie ", "Fitness in der Schwangerschaft", 'Beckenbodenschule', "Rückbildungsgymnastik", "Brunkow", "Bobath", "Geriatrie"]
+    var education_k = ["1988 Staatliches Examen als Physiotherapeutin", "1992-1999 als Freie Mitarbeiterin tätig", '1. Juli 1999 Gründung KG-Praxis In Bewegung', "1993 Schlingentischtherapie", "1993 Fußreflexzonentherapie nach Hanne Marquadt", "1993-1996 Ausbildung zur Manualtherapeutin mit Zertifikat bei der ÄMM", '1996 "Der Erfahrbare Atem" – Grundkurs', '1997 Anatomiekurs an der Charité']
 
     var active_emp_education = document.getElementById('emp_education');
 
@@ -319,88 +326,159 @@ $( document ).ready(function() {
   var navcontent = document.getElementById("nav-content");
   var navaction = document.querySelectorAll("#navAction");
   // var shadow = document.getElementById("shadow");
-  var brandname = document.getElementById("brandname");
+  // var brandname = document.getElementById("brandname");
   var toToggle = document.querySelectorAll(".toggleColour");
 
-  document.addEventListener('scroll', function() {
+  // document.addEventListener('scroll', function() {
 
-  /*Apply classes for slide in bar*/
-  scrollpos = window.scrollY;
+  // /*Apply classes for slide in bar*/
+  // scrollpos = window.scrollY;
 
-    if(scrollpos > 50){
-    // wenn unten
-    header.classList.add("text-ib-blue");
-    // shadow.classList.add("animated");
-    // shadow.classList.add("fadeIn");
-    // shadow.classList.add("faster");
-    // shadow.classList.add("shadow-md")
+  //   if(scrollpos > 50){
+  //   // wenn unten
+  //   header.classList.add("text-ib-blue");
+  //   // shadow.classList.add("animated");
+  //   // shadow.classList.add("fadeIn");
+  //   // shadow.classList.add("faster");
+  //   // shadow.classList.add("shadow-md")
 
-    brandname.classList.add("animated");
-    brandname.classList.add("fadeInLeft");
-    brandname.classList.add("faster");
+  //   brandname.classList.add("animated");
+  //   brandname.classList.add("fadeInLeft");
+  //   brandname.classList.add("faster");
 
-    //Use to switch toggleColour colours
-    for (var i = 0; i < toToggle.length; i++) {
-      toToggle[i].classList.add("text-gray-800");
-     toToggle[i].classList.remove("text-white");
-    }
-    navcontent.classList.remove("bg-gray-100");
-    navcontent.classList.add("bg-white");
-    }
-    else {
-    // wenn oben
-    header.classList.add("text-transparent");
-    header.classList.remove("text-ib-blue");
-    // shadow.classList.remove("animated");
-    // shadow.classList.remove("fadeIn");
-    // shadow.classList.remove("faster");
-    // shadow.classList.remove("shadow-md")
+  //   //Use to switch toggleColour colours
+  //   for (var i = 0; i < toToggle.length; i++) {
+  //     toToggle[i].classList.add("text-gray-800");
+  //    toToggle[i].classList.remove("text-white");
+  //   }
+  //   navcontent.classList.remove("bg-gray-100");
+  //   navcontent.classList.add("bg-white");
+  //   }
+  //   else {
+  //   // wenn oben
+  //   header.classList.add("text-transparent");
+  //   header.classList.remove("text-ib-blue");
+  //   // shadow.classList.remove("animated");
+  //   // shadow.classList.remove("fadeIn");
+  //   // shadow.classList.remove("faster");
+  //   // shadow.classList.remove("shadow-md")
 
-    brandname.classList.remove("animated");
-    brandname.classList.remove("fadeInLeft");
-    brandname.classList.remove("faster");
+  //   brandname.classList.remove("animated");
+  //   brandname.classList.remove("fadeInLeft");
+  //   brandname.classList.remove("faster");
 
-      for (var i = 0; i < toToggle.length; i++) {
-       toToggle[i].classList.add("text-white");
-     toToggle[i].classList.remove("text-gray-800");
-    }
+  //     for (var i = 0; i < toToggle.length; i++) {
+  //      toToggle[i].classList.add("text-white");
+  //    toToggle[i].classList.remove("text-gray-800");
+  //   }
     
-    // header.classList.remove("shadow");
-    navcontent.classList.remove("bg-white");
-    navcontent.classList.add("bg-gray-100");
+  //   // header.classList.remove("shadow");
+  //   navcontent.classList.remove("bg-white");
+  //   navcontent.classList.add("bg-gray-100");
     
-    }
+  //   }
 
-  });
+  // });
 
   function changeName(employee) {
 
     var emp_list = [
         {
-          name: 'Kristina',
-          description: 'Ich wollte mal Astronautin werden', 
-          image: "./img/ib_k.png",
+          name: 'Kristina Hochuli',
+          description: 'Inhaberin der Praxis In Bewegung. Ich wollte als Kind unbedingt HEBAMME werden, oder RICHTERIN, oder aber BIBLIOTHEKARIN ', 
+          image: "./img/0.png",
           education:
-            ["Hydrotherapie ", "Fitness in der Schwangerschaft", 'Beckenbodenschule', "Rückbildungsgymnastik", "Brunkow", "Bobath", "Geriatrie"]
+            ["1988 Staatliches Examen als Physiotherapeutin", "1992-1999 als Freie Mitarbeiterin tätig", '1. Juli 1999 Gründung KG-Praxis In Bewegung', "1993 Schlingentischtherapie", "1993 Fußreflexzonentherapie nach Hanne Marquadt", "1993-1996 Ausbildung zur Manualtherapeutin mit Zertifikat bei der ÄMM", '1996 "Der Erfahrbare Atem" – Grundkurs', '1997 Anatomiekurs an der Charité']
         },
         {
-          name: 'Britta',
-          description: 'Ich wollte mal Pizzabäckerin werde', 
-          image: "./img/ib_b.png",
+          name: 'Isabel Bretschneider',
+          description: 'wollte als sie noch ein Kind war PFERDEZÜCHTERIN in Kanada werden ', 
+          image: "./img/1.png",
           education:
-            ["Bobath", "Hydrotherapie", 'Rückbildungsgymnastik', 'Geriatrie']
+            ["Diplomfinanzwirtin", "Administration", 'Abrechnungen']
         },
         {
-          name: 'Lea',
-          description: 'Ich wollte mal Sängerin werden', 
-          image: "./img/ib_l.png",
+          name: 'Eva Lammers',
+          description: 'wollte als sie klein war, genau wie ihre Mama, ERZIEHERIN werden. Oder SCHAUSPIELERIN. Oder als ARTISTIN im Zirkus auftreten', 
+          image: "./img/2.png",
           education:
-            ["Brunkow", "Fitness in der Schwangerschaft", 'Hydrotherapie']
+            ["10/2010 Manuelle Lymphdrainage und KPE", "ab 05/2017 Ausbildung zur Bobaththerapeutin"]
         },
         {
-          name: 'Hanna',
+          name: 'Isabel Gosebruch',
+          description: 'wollte immer schon PHYSIOTHERAPEUTIN werden', 
+          image: "./img/3.png",
+          education:
+            ["1979-1981 Krankengymnastikschule Karlsbad-Langensteinbach", "1981-1991 Praxistätigkeit in Bremen und Köln", '1991-2002 Kinderpause', 'seit 2002 berufstätig in der Praxis In Bewegung']
+        },
+        {
+          name: 'Lisa Tornow',
           description: 'Ich wollte mal Bäckerin werden.', 
-          image: "./img/ib_k.png",
+          image: "./img/4.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Monika Kerler',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/5.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Katrin Krieg',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/6.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Lea Harms',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/7.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Maja Sperlich',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/8.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Marilena Heyl',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/9.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Anke Hofmann',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/10.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+
+        {
+          name: 'Lisa Ledder',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/11.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Christiane Specht',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/12.png",
+          education:
+            ["Rückbildungsgymnastik", "Beckenbodenschule"]
+        },
+        {
+          name: 'Max Frömming',
+          description: 'Ich wollte mal Bäckerin werden.', 
+          image: "./img/13.png",
           education:
             ["Rückbildungsgymnastik", "Beckenbodenschule"]
         },
@@ -435,7 +513,7 @@ $( document ).ready(function() {
       }
     }
 
-    document.getElementById('emp_name').innerHTML = active_emp.name.substring(1);
+    document.getElementById('emp_name').innerHTML = active_emp.name;
     document.getElementById('emp_description').innerHTML = active_emp.description;
     document.getElementById('emp_image').src = active_emp.image;
 
@@ -457,7 +535,7 @@ $( document ).ready(function() {
       newDiv.classList.add('p-2');
       newDiv.classList.add('px-4');
       newDiv.classList.add('m-2');
-      newDiv.classList.add('font-semibold');
+      // newDiv.classList.add('font-semibold');
       newDiv.classList.add('hover:bg-ib-red');
       newDiv.classList.add('hover:text-white');
       newDiv.classList.add('hover:border-transparent');
@@ -483,18 +561,18 @@ $( document ).ready(function() {
 
     var service_list = [
         {
-          name: 'Krankengymnastik',
-          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
+          name: 'Akupressur',
+          description: 'Aus dem Japanischen: "Yin Shin Do", zu Deutsch: "Sanfte Form der Akupunktur". Auf der Körperfläche sind Energiepunkte netzartig verteilt und durch Meridiane miteinander verbunden, die mit inneren Organen in Verbindung stehen. Durch Druck mit dem Daumen oder den Fingern auf die Akupressurpunkte sollen Funktionsstörungen der zugehörigen inneren Organe behoben werden. Anwendung bei Kopf-, Nacken-, oder Rückenschmerzen, Weichteilrheumatismus oder funktionellen Störungen.', 
           image: "./img/1.jpg"
         },
         {
-          name: 'Bewegungstherapie',
-          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
+          name: 'Atemtherapie',
+          description: 'Therapie mit ganzheitlichem Ansatz, die Atemerleben, Selbsterfahrung und Bewegung miteinander verbindet. Die Techniken der Atemtherapie dienen der Pneumoniefreiheit, Thoraxmobilität, verbesserten Vitalkapazität, Lösung und Beförderung von Sekret, Stabilisierung des Normotonus in Haut, Bindegewebe und Muskulatur des Rumpfes, sowie der leichten Atemarbeit und verbesserten Entspannungsfähigkeit. Die Atemtherapie findet Anwendung präoperativ zur Verbesserung der Lungenfunktion prophylaktisch in allen Fachbereichen therapeutisch bei obstruktiven und restriktiven Lungenerkrankungen und vegetativen Funktionsstörungen', 
           image: "./img/2.jpg"
         },
         {
-          name: 'Physikalische Therapie',
-          description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.', 
+          name: 'Beckenbodengymnastik',
+          description: 'Die ganzheitliche Therapie der Inkontinenz / Das Grosemans- Konzept" ist ein umfassender und individueller Behandlungsansatz, der sich osteopathischer Techniken, Feldenkrais-Methoden, dem Neuromedizin-Konzept und verhaltenstherapeutischer Ansätze bedient und damit unter anderem bei der Behandlung von Funktionsstörungen der Blase Inkontinenz, Erektionsstörungen nach radikaler Prostatektomie, weiblicher Belastungs- und Dranginkontinenz rezidivierenden Blasenentzündungen, abakterieller Prostatitis kindlicher Harninkontinenz und Enuresis Anwendung findet.', 
           image: "./img/3.jpg"
         },
         {
@@ -573,7 +651,7 @@ $( document ).ready(function() {
     for (var i = 0; i < service_list.length; i++){
       if (service_list[i].name == service.id) {
         var active_service = service_list[i];
-        console.log(active_service)
+        // console.log(active_service)
       }
     }
 
