@@ -98,7 +98,7 @@ body {
   transition: max-height 0.2s ease-out;
 }
 
-.dickes-B {
+.dickes-b {
   /*animation: bounce 5s infinite;*/
   transform: rotate(-10deg);
 }
