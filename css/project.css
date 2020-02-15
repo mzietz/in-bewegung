@@ -7,10 +7,8 @@
 /*#f3ffbd beige*/
 /*#ff1654 red*/
 
-
-
 body {
-  background-color: #ffffff;
+  background-color: #fdfdff;
   color: #333;
   font-family: 'Montserrat', sans-serif;
   -webkit-background-size: cover;
@@ -25,6 +23,10 @@ body {
 .wrapper p{
 	animation-delay: 2s;
 	display: inline-block;
+}
+
+.wrapper img{
+  animation-delay: 2s;
 }
 
 .wrapper i{
