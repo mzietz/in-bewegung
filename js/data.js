@@ -177,7 +177,7 @@ var services = [
   {
     name: "Bobath Therapie",
     description:
-      "Das Bobath-Konzept wird bei der Therapie neurologischer Erkrankungen eingesetzt. Es wurde speziell für Patienten mit erworbenen Schäden des Zentralnervensystems (z.B. nach Schlaganfall) entwickelt. Es erfolgt eine Analyse des erhalten gebliebenen Zustandes und entstandenen Abweichungen, daraus ergibt sich die Auswahl geeigneter Behandlungsansätze. Die Behandlung gründet auf dem Wiedererlernen normaler Bewegungen bei Hemmung von abnormalen Reflexaktivitäten. (Mittels Inhibition: Hemmung von Tonus und pathologischen Bewegungsmustern, um eine bessere Ausgangssituation für aktive Bewegungen zu schaffen. Fazilitation: Bahnung physiologischer Bewegungsmuster. Stimulationstechniken: Maßnahmen die unmittelbar die Nahsinne ansprechen und Bewegungen vorbereiten oder sie einleiten.)",
+      "Das Bobath-Konzept wird bei der Therapie neurologischer Erkrankungen eingesetzt. Es wurde speziell für Patienten mit erworbenen Schäden des Zentralnervensystems (z.B. nach Schlaganfall) entwickelt. Es erfolgt eine Analyse des erhalten gebliebenen Zustandes und entstandenen Abweichungen, daraus ergibt sich die Auswahl geeigneter Behandlungsansätze. Die Behandlung gründet auf dem Wiedererlernen normaler Bewegungen bei Hemmung von abnormalen Reflexaktivitäten. (Mittels Inhibition: Hemmung von Tonus und pathologischen Bewegungsmustern, um eine bessere Ausgangssituation für aktive Bewegungen zu schaffen.",
     image: "./img/4.jpg"
   },
   {
@@ -213,7 +213,7 @@ var services = [
   {
     name: "Krankengymnastik",
     description:
-      "Die Krankengymnastik als Bestandteil der Physiotherapie umfasst eine Vielzahl von unterschiedlichen Behandlungsmethoden. Dabei werden natürliche physikalische Reize wie zum Beispiel Wärme, Kälte und Druck sowie die Eigenaktivität des Patienten durch Schulung der Wahrnehmung, des Gleichgewichts, der Beweglichkeit und der muskulären Balance genutzt. Das gemeinsame Ziel von Patient und Physiotherapeut richtet sich nach den vorliegenden Beschwerden und beinhaltet, die größtmögliche Selbständigkeit wieder zu erreichen, Schmerzen zu reduzieren und die Beweglichkeit wiederherzustellen. So können Übungen für zuhause erlernt werden und über weitere sinnvolle Maßnahmen der Physiotherapie informiert werden, die im konkreten Fall förderlich wären.",
+      "Die Krankengymnastik als Bestandteil der Physiotherapie umfasst eine Vielzahl von unterschiedlichen Behandlungsmethoden. Dabei werden natürliche physikalische Reize wie zum Beispiel Wärme, Kälte und Druck sowie die Eigenaktivität des Patienten durch Schulung der Wahrnehmung, des Gleichgewichts, der Beweglichkeit und der muskulären Balance genutzt. Das gemeinsame Ziel von Patient und Physiotherapeut richtet sich nach den vorliegenden Beschwerden und beinhaltet, die größtmögliche Selbständigkeit wieder zu erreichen, Schmerzen zu reduzieren und die Beweglichkeit wiederherzustellen. So können Übungen für zuhause erlernt werden und über weitere sinnvolle Maßnahmen der Physiotherapie informiert werden.",
     image: "./img/4.jpg"
   },
   {
@@ -225,7 +225,7 @@ var services = [
   {
     name: "Manuelle Therapie",
     description:
-      "Die Manuelle Therapie ist eine Behandlungsmethode innerhalb der Physiotherapie, welche sich auf die Wiederherstellung von Funktionsstörungen am Bewegungsapparat konzentriert. Die Aufgabe der Manuellen Therapie besteht darin, das gestörte Gelenk oder die gestörte Struktur mit gezielten Untersuchungen zu lokalisieren und durch verschiedene Techniken Schmerzen zu lindern, Bewegungseinschränkungen zu verbessern und Blockierungen zu lösen. Hierbei kommen spezielle Griff- und Behandlungstechniken zum Einsatz. Die Manuelle Therapie befasst sich demnach mit dem Auffinden und Behandeln von Dysfunktionen am Bewegungsapparat mit dem Ziel des Erhalts oder der Wiederherstellung der normalen Funktion im Gelenk und allen funktionell und strukturell damit verbundenen Geweben. Der gesamte menschliche Körper wird betrachtet und in seiner funktionellen Einheit gesehen. Das physiologische Zusammenspiel zwischen Gelenken, Muskeln und neuralen Strukturen wird angesprochen ",
+      "Die Manuelle Therapie ist eine Behandlungsmethode innerhalb der Physiotherapie, welche sich auf die Wiederherstellung von Funktionsstörungen am Bewegungsapparat konzentriert. Die Aufgabe der Manuellen Therapie besteht darin, das gestörte Gelenk oder die gestörte Struktur mit gezielten Untersuchungen zu lokalisieren und durch verschiedene Techniken Schmerzen zu lindern, Bewegungseinschränkungen zu verbessern und Blockierungen zu lösen. Hierbei kommen spezielle Griff- und Behandlungstechniken zum Einsatz.",
     image: "./img/4.jpg"
   },
   {
@@ -237,7 +237,7 @@ var services = [
   {
     name: "Klassische Massage",
     description:
-      'Die Klassische Massage ist eine seit dem Altertum gebräuchliche Massagetechnik, die mit den "klassischen" Grifftechniken arbeitet. Die Massage kann sehr gut in Kombination mit Wärme wie Heißluft oder Fango angewendet werden.\nNeben ihrem physiotherapeutischen Nutzen werden Klassische Massagen auch präventiv, vorbeugend eingesetzt. Sie unterscheiden sich von physiotherapeutischen Behandlungen dadurch, dass keine schmerzhafte Erkrankung und keine ärztliche Diagnose vorliegen muss. Sie dient somit hauptsächlich der Entspannung des Körpers. \nDie Klassische Massage ist eine durch Hand ausgeführte lokale, mechanische, adäquat dosierte Anwendung, bei der Gewebestrukturen wie Haut, Bindegewebe und Muskeln bearbeitet werden. Durch die Anwendung treten positive mechanische, reflektorische, biochemische, humorale, bioenergetische wie psychische Effekte auf. Diese Effekte äußern sich in einer verbesserten Durchblutung und Anregung des Lymphsystems, der Schmerzlinderung, der Muskelentspannung, der allgemeinen Körperentspannung und einer Lockerung des Gewebes. ',
+      'Die Klassische Massage ist eine seit dem Altertum gebräuchliche Massagetechnik, die mit den "klassischen" Grifftechniken arbeitet. Die Massage kann sehr gut in Kombination mit Wärme wie Heißluft oder Fango angewendet werden.\nNeben ihrem physiotherapeutischen Nutzen werden Klassische Massagen auch präventiv, vorbeugend eingesetzt. Sie unterscheiden sich von physiotherapeutischen Behandlungen dadurch, dass keine schmerzhafte Erkrankung und keine ärztliche Diagnose vorliegen muss. Sie dient somit hauptsächlich der Entspannung des Körpers.',
     image: "./img/4.jpg"
   },
   {
@@ -255,13 +255,13 @@ var services = [
   {
     name: "Osteopathie",
     description:
-      "„Leben ist Bewegung“ - Die freie Beweglichkeit aller Knochen, Nerven und aller Organe bis hin zur kleinsten Körperzelle ist die Voraussetzung für den problemlosen Ablauf eines jeden Vorgangs in unserem Körper. Jede Krankheit, jedes Leiden, sei es körperlichen oder seelischen Ursprungs, geht mit einer Beeinträchtigung von Gewebestrukturen einher. Verletzungen, Verspannungen oder Verwachsungen, wodurch die Beweglichkeit eingeschränkt wird, stören die harmonischen Abläufe. Die Osteopathie ist eine ganzheitliche, naturheilkundliche, manuelle Heilmethode, die alle Gewebe im menschlichen Organismus in ihrer wechselseitigen Abhängigkeit versteht. ",
+      "„Leben ist Bewegung“ - Die freie Beweglichkeit aller Knochen, Nerven und aller Organe bis hin zur kleinsten Körperzelle ist die Voraussetzung für den problemlosen Ablauf eines jeden Vorgangs in unserem Körper. Jede Krankheit, jedes Leiden, sei es körperlichen oder seelischen Ursprungs, geht mit einer Beeinträchtigung von Gewebestrukturen einher. Verletzungen, Verspannungen oder Verwachsungen, wodurch die Beweglichkeit eingeschränkt wird, stören die harmonischen Abläufe. Die Osteopathie ist eine ganzheitliche, naturheilkundliche, manuelle Heilmethode, die alle Gewebe im menschlichen Organismus in ihrer wechselseitigen Abhängigkeit versteht.",
     image: "./img/4.jpg"
   },
   {
     name: "Pilates",
     description:
-      "Joseph Pilates (1880-1967) entwickelte in den 20er Jahren die Pilates-Methode. Ihr liegt ein eigenes Trainingskonzept zugrunde, bei der die Tiefenmuskulatur, im Schwerpunkt Rücken- und Bauchmuskulatur, trainiert wird. Es ist jedoch als Ganzkörpertraining zu sehen, ein Training für Körper und Geist. Joseph Pilates kombinierte gymnastische Übungen mit Elementen aus dem Zenbuddhismus sowie Yoga und forderte die Haltemuskulatur umso mehr heraus, indem er Atmung und Bewegung miteinander koordinierte. \nPilates dient der Stärkung des ganzen Körpers und stabilisiert vor allem die tief liegenden Muskeln des Nacken-, Schulter-, Rücken-, Becken- und Hüftbereichs. Die Bewegungen werden von einem zentralen Stabilitätskern, dem sog. `Powerhouse´ (Lenden-Becken-Region) begonnen. Dieser wird im Laufe des Kurses mit anspruchsvolleren Bewegungen mehr gefordert und mit passender Atemkontrolle unterstützt. Die Pilatesübungen sind so konzipiert, dass sie die Kernstabilität, Flexibilität, Ausdauer, Haltung und Körperwahrnehmung verbessern und Muskeldysbalancen ausgleichen. ",
+      "Joseph Pilates (1880-1967) entwickelte in den 20er Jahren die Pilates-Methode. Ihr liegt ein eigenes Trainingskonzept zugrunde, bei der die Tiefenmuskulatur, im Schwerpunkt Rücken- und Bauchmuskulatur, trainiert wird. Es ist jedoch als Ganzkörpertraining zu sehen, ein Training für Körper und Geist. Joseph Pilates kombinierte gymnastische Übungen mit Elementen aus dem Zenbuddhismus sowie Yoga und forderte die Haltemuskulatur umso mehr heraus, indem er Atmung und Bewegung miteinander koordinierte. \nPilates dient der Stärkung des ganzen Körpers und stabilisiert vor allem die tief liegenden Muskeln des Nacken-, Schulter-, Rücken-, Becken- und Hüftbereichs.",
     image: "./img/4.jpg"
   },
   {
@@ -297,7 +297,7 @@ var services = [
   {
     name: "Shiatsu",
     description:
-      "Shiatsu bedeutet übersetzt „Fingerdruck“ und entwickelte sich aus einer über 5.000 Jahre alten fernöstlichen Heilkunst. Heute ist es eine moderne Therapieform, die auch bei uns immer beliebter wird. Shiatsu umfasst die Verbesserung des Energieflusses in den Meridianen durch die Ausübung von Druck sowie durch Dehnung.\nDas heutige Shiatsu ist eine ganzheitliche Therapie, die fest in der Traditionellen Chinesischen Medizin verwurzelt ist und die von dem Wissen ausgeht, dass die als Qi bekannte Lebensenergie durch Meridiane genannte Kanäle oder Wege des Körpers fließt. Indem man auf bestimmte Punkte an diesen Linien Druck ausübt, kann man Blockaden des Energieflusses aufheben und für ein gesundes Funktionieren einzelner Körpersysteme sowie des ganzen Körpers sorgen. ",
+      "Shiatsu bedeutet übersetzt „Fingerdruck“ und entwickelte sich aus einer über 5.000 Jahre alten fernöstlichen Heilkunst. Heute ist es eine moderne Therapieform, die auch bei uns immer beliebter wird. Shiatsu umfasst die Verbesserung des Energieflusses in den Meridianen durch die Ausübung von Druck sowie durch Dehnung.\nDas heutige Shiatsu ist eine ganzheitliche Therapie, die fest in der Traditionellen Chinesischen Medizin verwurzelt ist und die von dem Wissen ausgeht, dass die als Qi bekannte Lebensenergie durch Meridiane genannte Kanäle oder Wege des Körpers fließt.",
     image: "./img/4.jpg"
   },
   {
@@ -314,7 +314,7 @@ var services = [
   {
     name: "Wirbelsäulenkurs",
     description:
-      "Die Wirbelsäule bildet die große Längsachse unseres Skeletts. Sie besteht aus 24 segmentförmigen Knochen, den Wirbeln, sowie dem Kreuzbein und dem Steißbein. Die Wirbel sind gegeneinander beweglich und erlauben uns dadurch vielfältige Bewegungen. Diese Beweglichkeit wird durch die Bandscheiben unterstützt, die außerdem zusammen mit vielen Bändern die Wirbelsäule stabilisieren. Die Wirbelsäule trägt den Kopf und dient der Anheftung der Rippen und der Rückenmuskulatur. Obwohl die Wirbel gegeneinander nur begrenzt beweglich sind, ist die Beweglichkeit der Wirbelsäule insgesamt doch erheblich. Diese Beweglichkeit wird vor allem durch ein umfassendes System aus sich überlappenden Muskelfaserzügen entlang der Wirbelsäule ermöglicht. Die Wirbelsäule ist eine komplexe Einheit, die uns durch das Leben trägt und in Bewegung hält.",
+      "Die Wirbelsäule bildet die große Längsachse unseres Skeletts. Sie besteht aus 24 segmentförmigen Knochen, den Wirbeln, sowie dem Kreuzbein und dem Steißbein. Die Wirbel sind gegeneinander beweglich und erlauben uns dadurch vielfältige Bewegungen. Diese Beweglichkeit wird durch die Bandscheiben unterstützt, die außerdem zusammen mit vielen Bändern die Wirbelsäule stabilisieren. Die Wirbelsäule trägt den Kopf und dient der Anheftung der Rippen und der Rückenmuskulatur. Obwohl die Wirbel gegeneinander nur begrenzt beweglich sind, ist die Beweglichkeit der Wirbelsäule insgesamt doch erheblich. Diese Beweglichkeit wird vor allem durch ein umfassendes System aus sich überlappenden Muskelfaserzügen entlang der Wirbelsäule ermöglicht.",
     image: "./img/4.jpg"
   }
 ];

@@ -56,7 +56,7 @@
               <button
                 id="navAction"
                 href="#team-section"
-                class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red py-2 px-4 shadow-custom"
+                class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red py-2 px-4 shadow"
               >
                 Team
               </button>
@@ -65,7 +65,7 @@
               <button
                 id="navAction"
                 href="#leistungen-section"
-                class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white hover:border-transparent rounded-full border border-ib-red py-2 px-4 shadow-custom"
+                class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white hover:border-transparent rounded-full border border-ib-red py-2 px-4 shadow"
               >
                 Leistungen
               </button>
@@ -75,7 +75,7 @@
               <button
                 id="navAction"
                 href="#contact-section"
-                class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red py-2 px-4 shadow-custom"
+                class="bg-white hover:bg-ib-red text-ib-red font-semibold hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red py-2 px-4 shadow"
               >
                 Kontakt
               </button>
@@ -87,7 +87,7 @@
 
     <section class="top-section mb-4">
       <div class="container mx-auto px-3 md:px-0">
-        <div class="h-screen flex justify-center items-center">
+        <div class="md:h-screen flex justify-center items-center mt-8 md:mt-0">
           <div
             id="front_card"
             class="md:w-2/3 mx-auto bg-white border shadow-lg hover:shadow px-6 pt-8 pb-3 rounded-lg mb-6 flex justify-center "
@@ -320,16 +320,16 @@
 
         <div
           id="service_detail_card"
-          class="md:w-2/3 mx-auto bg-white border shadow-lg hover:shadow rounded-lg mb-6 overflow-hidden hidden md:block"
+          class="md:w-2/3 mx-auto bg-white border shadow-lg hover:shadow rounded-lg mb-6 overflow-hidden md:block"
         >
           <div class="flex">
             <!-- <img id="service_image" class="h-full w-1/2" src="./img/1.jpg" alt=""> -->
             <div class="flex justify-center">
-              <div class="block p-6">
-                <div id="service_name" class="text-ib-blue text-3xl">
+              <div class="block py-3 px-6">
+                <div id="service_name" class="text-ib-blue md:text-3xl border-b border-ib-blue">
                   Akupressur
                 </div>
-                <div id="service_description" class="text-sm pt-5">
+                <div id="service_description" class="text-xs md:text-sm pt-2 md:h-40">
                   Aus dem Japanischen: "Yin Shin Do", zu Deutsch: "Sanfte Form
                   der Akupunktur". Auf der Körperfläche sind Energiepunkte
                   netzartig verteilt und durch Meridiane miteinander verbunden,
@@ -344,61 +344,61 @@
           </div>
         </div>
 
-        <div id="service_list_card" class="md:w-2/3 mx-auto mb-6">
+        <div id="service_list_card" class="md:w-2/3 mx-auto mb-6 ">
           <div class="">
             <button
               id="Akupressur"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Akupressur
             </button>
             <button
               id="Atemtherapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Atemtherapie
             </button>
             <button
               id="Beckenbodengymnastik"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Beckenbodengymnastik
             </button>
             <button
               id="Bobath Therapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Bobath Therapie
             </button>
             <button
               id="Therapie nach Brügger"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Therapie nach Brügger
             </button>
             <button
               id="Elektrotherapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Elektrotherapie
             </button>
             <button
               id="Fußreflexzonentherapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Fußreflexzonentherapie
             </button>
             <button
               id="Hot-Stone Therapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Hot-Stone Therapie
             </button>
@@ -406,35 +406,35 @@
             <button
               id="Kinesio-Taping"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Kinesio-Taping
             </button>
             <button
               id="Krankengymnastik"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Krankengymnastik
             </button>
             <button
               id="Mamma-Gruppengymnastik"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Mamma-Gruppengymnastik
             </button>
             <button
               id="Manuelle Therapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Manuelle Therapie
             </button>
             <button
               id="Therapie nach Marnitz"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Therapie nach Marnitz
             </button>
@@ -442,91 +442,91 @@
             <button
               id="Klassische Massage"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Klassische Massage
             </button>
             <button
               id="Orthopädie nach Cyriax"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Orthopädie nach Cyriax
             </button>
                         <button
               id="Orthopädische Rückenschule"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Orthopädische Rückenschule
             </button>
                         <button
               id="Osteopathie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Osteopathie
             </button>
                         <button
               id="Pilates"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Pilates
             </button>
                         <button
               id="Schlingentischtherapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Schlingentischtherapie
             </button>
                                     <button
               id="Schmerzphysiotherapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Schmerzphysiotherapie
             </button>
                                     <button
               id="Taijiguan/Qigong"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Taijiguan/Qigong
             </button>
                                     <button
               id="Schröpfen"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Schröpfen
             </button>
                                     <button
               id="Shiatsu"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Shiatsu
             </button>
             <button
               id="Thermotherapie"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Thermotherapie
             </button>
             <button
               id="Lymphdrainage"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Lymphdrainage
             </button>
             <button
               id="Wirbelsäulenkurs"
               onclick="changeService(this)"
-              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-base hover:text-white py-2 px-4 hover:border-transparent rounded-full border border-ib-red mx-1 my-2 service_btn"
+              class="bg-white hover:bg-ib-red text-ib-red text-xs md:text-sm hover:text-white py-1 md:py-2 px-1 md:px-4 hover:border-transparent rounded-full border border-ib-red mr-1 md:mx-2 my-1 md:my-2 service_btn"
             >
               Wirbelsäulenkurs
             </button>
