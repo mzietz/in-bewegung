@@ -165,7 +165,7 @@ var services = [
   {
     name: "Atemtherapie",
     description:
-      "Therapie mit ganzheitlichem Ansatz, die Atemerleben, Selbsterfahrung und Bewegung miteinander verbindet. Die Techniken der Atemtherapie dienen der Pneumoniefreiheit, Thoraxmobilität, verbesserten Vitalkapazität, Lösung und Beförderung von Sekret, Stabilisierung des Normotonus in Haut, Bindegewebe und Muskulatur des Rumpfes, sowie der leichten Atemarbeit und verbesserten Entspannungsfähigkeit. Die Atemtherapie findet Anwendung präoperativ zur Verbesserung der Lungenfunktion prophylaktisch in allen Fachbereichen therapeutisch bei obstruktiven und restriktiven Lungenerkrankungen und vegetativen Funktionsstörungen",
+      "Therapie mit ganzheitlichem Ansatz, die Atemerleben, Selbsterfahrung und Bewegung miteinander verbindet. Die Techniken der Atemtherapie dienen der Pneumoniefreiheit, Thoraxmobilität, verbesserten Vitalkapazität, Lösung und Beförderung von Sekret, Stabilisierung des Normotonus in Haut, Bindegewebe und Muskulatur des Rumpfes, sowie der leichten Atemarbeit und verbesserten Entspannungsfähigkeit.",
     image: "./img/2.jpg"
   },
   {
@@ -177,7 +177,7 @@ var services = [
   {
     name: "Bobath Therapie",
     description:
-      "Das Bobath-Konzept wird bei der Therapie neurologischer Erkrankungen eingesetzt. Es wurde speziell für Patienten mit erworbenen Schäden des Zentralnervensystems (z.B. nach Schlaganfall) entwickelt. Es erfolgt eine Analyse des erhalten gebliebenen Zustandes und entstandenen Abweichungen, daraus ergibt sich die Auswahl geeigneter Behandlungsansätze. Die Behandlung gründet auf dem Wiedererlernen normaler Bewegungen bei Hemmung von abnormalen Reflexaktivitäten. (Mittels Inhibition: Hemmung von Tonus und pathologischen Bewegungsmustern, um eine bessere Ausgangssituation für aktive Bewegungen zu schaffen.",
+      "Das Bobath-Konzept wird bei der Therapie neurologischer Erkrankungen eingesetzt. Es wurde speziell für Patienten mit erworbenen Schäden des Zentralnervensystems (z.B. nach Schlaganfall) entwickelt. Es erfolgt eine Analyse des erhalten gebliebenen Zustandes und entstandenen Abweichungen, daraus ergibt sich die Auswahl geeigneter Behandlungsansätze. Die Behandlung gründet auf dem Wiedererlernen normaler Bewegungen bei Hemmung von abnormalen Reflexaktivitäten.",
     image: "./img/4.jpg"
   },
   {
@@ -213,13 +213,13 @@ var services = [
   {
     name: "Krankengymnastik",
     description:
-      "Die Krankengymnastik als Bestandteil der Physiotherapie umfasst eine Vielzahl von unterschiedlichen Behandlungsmethoden. Dabei werden natürliche physikalische Reize wie zum Beispiel Wärme, Kälte und Druck sowie die Eigenaktivität des Patienten durch Schulung der Wahrnehmung, des Gleichgewichts, der Beweglichkeit und der muskulären Balance genutzt. Das gemeinsame Ziel von Patient und Physiotherapeut richtet sich nach den vorliegenden Beschwerden und beinhaltet, die größtmögliche Selbständigkeit wieder zu erreichen, Schmerzen zu reduzieren und die Beweglichkeit wiederherzustellen. So können Übungen für zuhause erlernt werden und über weitere sinnvolle Maßnahmen der Physiotherapie informiert werden.",
+      "Die Krankengymnastik als Bestandteil der Physiotherapie umfasst eine Vielzahl von unterschiedlichen Behandlungsmethoden. Dabei werden natürliche physikalische Reize wie zum Beispiel Wärme, Kälte und Druck sowie die Eigenaktivität des Patienten durch Schulung der Wahrnehmung, des Gleichgewichts, der Beweglichkeit und der muskulären Balance genutzt. Das gemeinsame Ziel von Patient und Physiotherapeut richtet sich nach den vorliegenden Beschwerden und beinhaltet, die größtmögliche Selbständigkeit wieder zu erreichen, Schmerzen zu reduzieren und die Beweglichkeit wiederherzustellen.",
     image: "./img/4.jpg"
   },
   {
     name: "Mamma-Gruppengymnastik",
     description:
-      "Frauen, die von Brustkrebs betroffen sind und operiert wurden, benötigen Unterstützung zur Verbesserung des Abfliessens der Lymphen. Des Weiteren können sich durch entstandene Narben Verwachsungen bilden, die die freie Beweglichkeit des Schultergelenks und Schultergürtels beeinträchtigen. Die Mamma-Gruppengymnastik wird speziell für Frauen nach Brustkrebsoperationen angeboten. Mit Freude an der Bewegung wird aktiv die Beweglichkeit geschult und der lymphatische Rückfluss gefördert. Schmerzhafte Strukturen werden entlastet, Verspannungen im Schulter-Nacken-Bereich gelöst sowie Schultergelenk und Schultergürtel mobilisiert. Es wird die Muskulatur gekräftigt und die Ausdauer geschult. ",
+      "Frauen, die von Brustkrebs betroffen sind und operiert wurden, benötigen Unterstützung zur Verbesserung des Abfliessens der Lymphen. Des Weiteren können sich durch entstandene Narben Verwachsungen bilden, die die freie Beweglichkeit des Schultergelenks und Schultergürtels beeinträchtigen. Die Mamma-Gruppengymnastik wird speziell für Frauen nach Brustkrebsoperationen angeboten. Mit Freude an der Bewegung wird aktiv die Beweglichkeit geschult und der lymphatische Rückfluss gefördert. Schmerzhafte Strukturen werden entlastet, Verspannungen im Schulter-Nacken-Bereich gelöst sowie Schultergelenk und Schultergürtel mobilisiert.",
     image: "./img/4.jpg"
   },
   {
@@ -279,7 +279,7 @@ var services = [
   {
     name: "Schmerzphysiotherapie",
     description:
-      "Ein Konzept, das versucht, der Vielschichtigkeit von chronischen Schmerzen gerecht zu werden. Es ist ein offenes, ganzheitliches, patientenzentriertes Konzept mit einer gezielten und wohldosierten Kombinationsbehandlung aus Manualtherapie, PNF und Kinästhesie.\nBei der Manualtherapie ist der Patient weitgehend passiv, beim PNF aktiv (jedoch therapeutenabhängig) und in der Kinästhesie aktiv und therapeutenunabhängig.\nDer Patient wird im Rahmen einer Behandlungsserie zu zunehmender Aktivität angeleitet. Er erlebt, wie er durch regelmäßige Übungen und Änderungen seiner Lebensgewohnheiten seine Schmerzen lindern und weitgehend unter Kontrolle bekommen kann. ",
+      "Ein Konzept, das versucht, der Vielschichtigkeit von chronischen Schmerzen gerecht zu werden. Es ist ein offenes, ganzheitliches, patientenzentriertes Konzept mit einer gezielten und wohldosierten Kombinationsbehandlung aus Manualtherapie, PNF und Kinästhesie.\nDer Patient wird im Rahmen einer Behandlungsserie zu zunehmender Aktivität angeleitet. Er erlebt, wie er durch regelmäßige Übungen und Änderungen seiner Lebensgewohnheiten seine Schmerzen lindern und weitgehend unter Kontrolle bekommen kann.",
     image: "./img/4.jpg"
   },
   {
@@ -314,7 +314,7 @@ var services = [
   {
     name: "Wirbelsäulenkurs",
     description:
-      "Die Wirbelsäule bildet die große Längsachse unseres Skeletts. Sie besteht aus 24 segmentförmigen Knochen, den Wirbeln, sowie dem Kreuzbein und dem Steißbein. Die Wirbel sind gegeneinander beweglich und erlauben uns dadurch vielfältige Bewegungen. Diese Beweglichkeit wird durch die Bandscheiben unterstützt, die außerdem zusammen mit vielen Bändern die Wirbelsäule stabilisieren. Die Wirbelsäule trägt den Kopf und dient der Anheftung der Rippen und der Rückenmuskulatur. Obwohl die Wirbel gegeneinander nur begrenzt beweglich sind, ist die Beweglichkeit der Wirbelsäule insgesamt doch erheblich. Diese Beweglichkeit wird vor allem durch ein umfassendes System aus sich überlappenden Muskelfaserzügen entlang der Wirbelsäule ermöglicht.",
+      "Die Wirbelsäule bildet die große Längsachse unseres Skeletts. Sie besteht aus 24 segmentförmigen Knochen, den Wirbeln, sowie dem Kreuzbein und dem Steißbein. Die Wirbel sind gegeneinander beweglich und erlauben uns dadurch vielfältige Bewegungen. Diese Beweglichkeit wird durch die Bandscheiben unterstützt, die außerdem zusammen mit vielen Bändern die Wirbelsäule stabilisieren. Die Wirbelsäule trägt den Kopf und dient der Anheftung der Rippen und der Rückenmuskulatur. Obwohl die Wirbel gegeneinander nur begrenzt beweglich sind, ist die Beweglichkeit der Wirbelsäule insgesamt doch erheblich.",
     image: "./img/4.jpg"
   }
 ];
