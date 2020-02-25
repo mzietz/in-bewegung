@@ -151,20 +151,22 @@ body {
   /*transform: rotate(80deg);*/
   animation: rotate 27000ms infinite linear;
   will-change: transform;
-  background: rgb(251, 186, 0);
+  /*background: rgb(251, 186, 0);*/
+  background: rgb(255, 255, 102);
 }
 
 .wave.-two {
   /*transform: rotate(120deg);*/
   animation: rotate 23000ms infinite linear;
   will-change: transform;
-  background: #70c1b3;
+  /*background: #70c1b3;*/
+  background: rgb(204, 230, 255);
 }
 
 .wave.-three {
   animation: rotate 16000ms infinite linear;
   will-change: transform;
-  background-color: #247ba0; /*f3ffbd*/
+  background-color: #82c6e3; /*f3ffbd*/
 }
 
 .hellblau{
