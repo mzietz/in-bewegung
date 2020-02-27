@@ -171,7 +171,7 @@ var services = [
   {
     name: "Beckenbodengymnastik",
     description:
-      'Die ganzheitliche Therapie der Inkontinenz / Das Grosemans- Konzept" ist ein umfassender und individueller Behandlungsansatz, der sich osteopathischer Techniken, Feldenkrais-Methoden, dem Neuromedizin-Konzept und verhaltenstherapeutischer Ansätze bedient und damit unter anderem bei der Behandlung von Funktionsstörungen der Blase Inkontinenz, Erektionsstörungen nach radikaler Prostatektomie, weiblicher Belastungs- und Dranginkontinenz rezidivierenden Blasenentzündungen, abakterieller Prostatitis kindlicher Harninkontinenz und Enuresis Anwendung findet.',
+      'Die ganzheitliche Therapie der Inkontinenz / Das Grosemans- Konzept" ist ein umfassender und individueller Behandlungsansatz, der sich osteopathischer Techniken, Feldenkrais-Methoden, dem Neuromedizin-Konzept und verhaltenstherapeutischer Ansätze bedient und damit unter anderem bei der Behandlung von Funktionsstörungen der Blase, Inkontinenz, Erektionsstörungen nach radikaler Prostatektomie oder weiblicher Belastungs- und Dranginkontinenz Anwendung findet.',
     image: "./img/3.jpg"
   },
   {
@@ -213,13 +213,13 @@ var services = [
   {
     name: "Krankengymnastik",
     description:
-      "Die Krankengymnastik als Bestandteil der Physiotherapie umfasst eine Vielzahl von unterschiedlichen Behandlungsmethoden. Dabei werden natürliche physikalische Reize wie zum Beispiel Wärme, Kälte und Druck sowie die Eigenaktivität des Patienten durch Schulung der Wahrnehmung, des Gleichgewichts, der Beweglichkeit und der muskulären Balance genutzt. Das gemeinsame Ziel von Patient und Physiotherapeut richtet sich nach den vorliegenden Beschwerden und beinhaltet, die größtmögliche Selbständigkeit wieder zu erreichen, Schmerzen zu reduzieren und die Beweglichkeit wiederherzustellen.",
+      "Die Krankengymnastik als Bestandteil der Physiotherapie umfasst eine Vielzahl von unterschiedlichen Behandlungsmethoden. Dabei werden natürliche physikalische Reize wie zum Beispiel Wärme, Kälte und Druck sowie die Eigenaktivität des Patienten durch Schulung der Wahrnehmung, des Gleichgewichts, der Beweglichkeit und der muskulären Balance genutzt.",
     image: "./img/4.jpg"
   },
   {
     name: "Mamma-Gruppengymnastik",
     description:
-      "Frauen, die von Brustkrebs betroffen sind und operiert wurden, benötigen Unterstützung zur Verbesserung des Abfliessens der Lymphen. Des Weiteren können sich durch entstandene Narben Verwachsungen bilden, die die freie Beweglichkeit des Schultergelenks und Schultergürtels beeinträchtigen. Die Mamma-Gruppengymnastik wird speziell für Frauen nach Brustkrebsoperationen angeboten. Mit Freude an der Bewegung wird aktiv die Beweglichkeit geschult und der lymphatische Rückfluss gefördert. Schmerzhafte Strukturen werden entlastet, Verspannungen im Schulter-Nacken-Bereich gelöst sowie Schultergelenk und Schultergürtel mobilisiert.",
+      "Frauen, die von Brustkrebs betroffen sind und operiert wurden, benötigen Unterstützung zur Verbesserung des Abfliessens der Lymphen. Des Weiteren können sich durch entstandene Narben Verwachsungen bilden, die die freie Beweglichkeit des Schultergelenks und Schultergürtels beeinträchtigen. Die Mamma-Gruppengymnastik wird speziell für Frauen nach Brustkrebsoperationen angeboten. Mit Freude an der Bewegung wird aktiv die Beweglichkeit geschult und der lymphatische Rückfluss gefördert.",
     image: "./img/4.jpg"
   },
   {
@@ -255,13 +255,13 @@ var services = [
   {
     name: "Osteopathie",
     description:
-      "„Leben ist Bewegung“ - Die freie Beweglichkeit aller Knochen, Nerven und aller Organe bis hin zur kleinsten Körperzelle ist die Voraussetzung für den problemlosen Ablauf eines jeden Vorgangs in unserem Körper. Jede Krankheit, jedes Leiden, sei es körperlichen oder seelischen Ursprungs, geht mit einer Beeinträchtigung von Gewebestrukturen einher. Verletzungen, Verspannungen oder Verwachsungen, wodurch die Beweglichkeit eingeschränkt wird, stören die harmonischen Abläufe. Die Osteopathie ist eine ganzheitliche, naturheilkundliche, manuelle Heilmethode, die alle Gewebe im menschlichen Organismus in ihrer wechselseitigen Abhängigkeit versteht.",
+      "„Leben ist Bewegung“ - Die freie Beweglichkeit aller Knochen, Nerven und aller Organe bis hin zur kleinsten Körperzelle ist die Voraussetzung für den problemlosen Ablauf eines jeden Vorgangs in unserem Körper. Jede Krankheit, jedes Leiden, sei es körperlichen oder seelischen Ursprungs, geht mit einer Beeinträchtigung von Gewebestrukturen einher. Die Osteopathie ist eine ganzheitliche, naturheilkundliche, manuelle Heilmethode, die alle Gewebe im menschlichen Organismus in ihrer wechselseitigen Abhängigkeit versteht.",
     image: "./img/4.jpg"
   },
   {
     name: "Pilates",
     description:
-      "Joseph Pilates (1880-1967) entwickelte in den 20er Jahren die Pilates-Methode. Ihr liegt ein eigenes Trainingskonzept zugrunde, bei der die Tiefenmuskulatur, im Schwerpunkt Rücken- und Bauchmuskulatur, trainiert wird. Es ist jedoch als Ganzkörpertraining zu sehen, ein Training für Körper und Geist. Joseph Pilates kombinierte gymnastische Übungen mit Elementen aus dem Zenbuddhismus sowie Yoga und forderte die Haltemuskulatur umso mehr heraus, indem er Atmung und Bewegung miteinander koordinierte. \nPilates dient der Stärkung des ganzen Körpers und stabilisiert vor allem die tief liegenden Muskeln des Nacken-, Schulter-, Rücken-, Becken- und Hüftbereichs.",
+      "Joseph Pilates (1880-1967) entwickelte in den 20er Jahren die Pilates-Methode. Ihr liegt ein eigenes Trainingskonzept zugrunde, bei der die Tiefenmuskulatur, im Schwerpunkt Rücken- und Bauchmuskulatur, trainiert wird. Es ist jedoch als Ganzkörpertraining zu sehen, ein Training für Körper und Geist. Joseph Pilates kombinierte gymnastische Übungen mit Elementen aus dem Zenbuddhismus sowie Yoga und forderte die Haltemuskulatur umso mehr heraus, indem er Atmung und Bewegung miteinander koordinierte.",
     image: "./img/4.jpg"
   },
   {
@@ -297,7 +297,7 @@ var services = [
   {
     name: "Shiatsu",
     description:
-      "Shiatsu bedeutet übersetzt „Fingerdruck“ und entwickelte sich aus einer über 5.000 Jahre alten fernöstlichen Heilkunst. Heute ist es eine moderne Therapieform, die auch bei uns immer beliebter wird. Shiatsu umfasst die Verbesserung des Energieflusses in den Meridianen durch die Ausübung von Druck sowie durch Dehnung.\nDas heutige Shiatsu ist eine ganzheitliche Therapie, die fest in der Traditionellen Chinesischen Medizin verwurzelt ist und die von dem Wissen ausgeht, dass die als Qi bekannte Lebensenergie durch Meridiane genannte Kanäle oder Wege des Körpers fließt.",
+      "Shiatsu bedeutet übersetzt „Fingerdruck“ und entwickelte sich aus einer über 5.000 Jahre alten fernöstlichen Heilkunst. Heute ist es eine moderne Therapieform, die auch bei uns immer beliebter wird. Shiatsu umfasst die Verbesserung des Energieflusses durch die Ausübung von Druck sowie durch Dehnung.\nDas heutige Shiatsu ist eine ganzheitliche Therapie, die fest in der Traditionellen Chinesischen Medizin verwurzelt ist und die von dem Wissen ausgeht, dass die als Qi bekannte Lebensenergie durch Meridiane genannte Kanäle des Körpers fließt.",
     image: "./img/4.jpg"
   },
   {
@@ -314,7 +314,7 @@ var services = [
   {
     name: "Wirbelsäulenkurs",
     description:
-      "Die Wirbelsäule bildet die große Längsachse unseres Skeletts. Sie besteht aus 24 segmentförmigen Knochen, den Wirbeln, sowie dem Kreuzbein und dem Steißbein. Die Wirbel sind gegeneinander beweglich und erlauben uns dadurch vielfältige Bewegungen. Diese Beweglichkeit wird durch die Bandscheiben unterstützt, die außerdem zusammen mit vielen Bändern die Wirbelsäule stabilisieren. Die Wirbelsäule trägt den Kopf und dient der Anheftung der Rippen und der Rückenmuskulatur. Obwohl die Wirbel gegeneinander nur begrenzt beweglich sind, ist die Beweglichkeit der Wirbelsäule insgesamt doch erheblich.",
+      "Die Wirbelsäule bildet die große Längsachse unseres Skeletts. Sie besteht aus 24 segmentförmigen Knochen, den Wirbeln, sowie dem Kreuzbein und dem Steißbein. Die Wirbel sind gegeneinander beweglich und erlauben uns dadurch vielfältige Bewegungen. Diese Beweglichkeit wird durch die Bandscheiben unterstützt, die außerdem zusammen mit vielen Bändern die Wirbelsäule stabilisieren. Obwohl die Wirbel gegeneinander nur begrenzt beweglich sind, ist die Beweglichkeit der Wirbelsäule insgesamt doch erheblich.",
     image: "./img/4.jpg"
   }
 ];

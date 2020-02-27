@@ -192,3 +192,7 @@ box-shadow: 1px 1px 2px 0px rgba(166,166,166,1);
     -webkit-transform: translate(0px, -7px);
     transform: translate(0px, -7px)
 }
+
+.h-services-mobile {
+  height: 13rem;
+}
