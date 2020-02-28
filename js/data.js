@@ -237,7 +237,7 @@ var services = [
   {
     name: "Klassische Massage",
     description:
-      'Die Klassische Massage ist eine seit dem Altertum gebräuchliche Massagetechnik, die mit den "klassischen" Grifftechniken arbeitet. Die Massage kann sehr gut in Kombination mit Wärme wie Heißluft oder Fango angewendet werden.\nNeben ihrem physiotherapeutischen Nutzen werden Klassische Massagen auch präventiv, vorbeugend eingesetzt. Sie unterscheiden sich von physiotherapeutischen Behandlungen dadurch, dass keine schmerzhafte Erkrankung und keine ärztliche Diagnose vorliegen muss. Sie dient somit hauptsächlich der Entspannung des Körpers.',
+      'Die Klassische Massage ist eine seit dem Altertum gebräuchliche Massagetechnik, die mit den "klassischen" Grifftechniken arbeitet. Die Massage kann sehr gut in Kombination mit Wärme wie Heißluft oder Fango angewendet werden.\nNeben ihrem physiotherapeutischen Nutzen werden Klassische Massagen auch präventiv, vorbeugend eingesetzt. Sie unterscheiden sich von physiotherapeutischen Behandlungen dadurch, dass keine schmerzhafte Erkrankung und keine ärztliche Diagnose vorliegen muss.',
     image: "./img/4.jpg"
   },
   {
