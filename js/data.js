@@ -302,7 +302,7 @@ var services = [
   },
   {
     name: "Thermotherapie",
-    description: "",
+    description: "Bei der Thermotherapie wird dem Körper gezielt Wärme zugeführt oder entzogen, um eine positive Wirkung auf den Körper zu erzielen. Wir behandeln sowohl mit Wärme, zum Beispiel mittels Fango, einer heißen Rolle oder Heißluft, als auch mit Kälte, beispielsweise mit Eisstücken im Beutel, Eishandtuch oder Cool-Packs.",
     image: "./img/4.jpg"
   },
   {
