@@ -49,7 +49,11 @@ var employees = [
       "2014 Autogenes Training",
       "2015 Manipulationskurs Wirbelsäule bei Charlie Bauer Osteoflow",
       "2015 Arterienmobilisation Charlie Bauer Osteoflow",
-      "2017 Migränetherapie nach Kern"
+      "2017 Migränetherapie nach Kern",
+      "2018 Entwicklungs- und Lerntherapie nach PäPKi® bei Säuglingen und Kleinkindern / Dr. Wibke Bein-Wierzbinski, Hamburg",
+      "2018 Sonderkurs Manuelle Therapie bei Kindern III, Berlin",
+      "2019 Osteophatische Verfahren beim Kind, Berlin",
+      "2019 Perinatale Osteopathie Teil I und Teil II, Dennis Gülden, Hamburg",
     ]
   },
   {
@@ -128,7 +132,8 @@ var employees = [
   },
   {
     name: "Juri Mager",
-    description: "xx.",
+    description:
+      "wollte früher FEUERWEHRMANN oder MÜLLMANN werden.",
     image: "./img/10.png",
     education: ["xx", "xx"]
   },
