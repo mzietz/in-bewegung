@@ -69,8 +69,9 @@ var employees = [
       "wollte als sie klein war, genau wie ihre Mama, ERZIEHERIN werden. Oder SCHAUSPIELERIN. Oder als ARTISTIN im Zirkus auftreten.",
     image: "./img/2.png",
     education: [
-      "10/2010 Manuelle Lymphdrainage und KPE",
-      "ab 05/2017 Ausbildung zur Bobaththerapeutin"
+      "seit Februar 2018 zertifizierte Bobaththerapeutin",
+      "Mitte des Jahres werde ich für 12 Monate nach Australien gehen und dort als Assistentin für Kinder mit Handicaps tätig sein.",
+      "ABER: Ich komme wieder"
     ]
   },
   {
@@ -88,19 +89,24 @@ var employees = [
     name: "Rebecca Gürtler",
     description: "wollte immer schon FOTOGRAFIN, TÄNZERIN, oder ÄRZTIN werden.",
     image: "./img/4.png",
-    education: ["xxx"]
+    education: ["2014 bis 2018 Studium der Physiotherapie - Bachelor of Science an der Alice Salomon Hochschule Berlin",
+      "April 2018 bis Dezember 2019 Physiotherapeutin für Menschen mit Mehrfachbehinderungen in der Tagesförderstätte Charlottenburg der Lebenshilfe Berlin",
+      "seit Jahresbeginn 2020 „In Bewegung“",
+      "Februar 2020 bis Mai 2020 Ausbildung zur Bobath-Therapeutin",
+    ]
   },
   {
     name: "Monika Kerler",
     description: "wollte als Kind NATURFORSCHERIN werden.",
     image: "./img/5.png",
     education: [
-      "2005-2007 Bachelor of Science, Physiotherapie Alice-Salomon-Hochschule Berlin",
-      "Physiotherapeutin, staatlich examiniert Charité Universitätsklinikum der Med. Fakultät der Humboldt-Universität Berlin",
+      "Master of Arts, Sozial- und Gesundheitswissenschaften",
+      "Bachelor of Science, Physiotherapie",
+      "Physiotherapeutin, staatlich examiniert",
       "Manuelle Lymphdrainage und Komplexe Physikalische Entstauungstherapie",
       "Nordic Walking Basic Instructor",
-      "Kiefergelenksbehandlung",
-      "Funktionsanalyse und Physiotherapie bei craniomandibulären Dysfunktionen "
+      "Behandlung von craniomandibulären Dysfunktionen",
+      "ist aktuell und voraussichtlich bis Oktober 2022 in Elternzeit"
     ]
   },
   {
@@ -118,13 +124,13 @@ var employees = [
     description: "wollte früher MALERIN werden und BÜCHER schreiben.",
     image: "./img/7.png",
     education: [
-      "Oktober 2016 Manuelle Lymphdrainage und KPE",
-      "Februar 2017 Migränetherapie nach Kern",
-      "ab Mai 2017 in Ausbildung in Manueller Therapie und MTT"
+      "seit März 2018 Kiefergelenkstherapeutin",
+      "September 2019 Zertifikatsabschluss Manuelle Therapie",
+      "ab Mai 2020 Beginn Osteopathie-Ausbildung"
     ]
   },
   {
-    name: "Maja Sperlich",
+    name: "Maja Sperlich (Freie Mitarbeiterin)",
     description:
       "wollte als Kind zur BERITTENEN POLIZEI gehen. Oder aber BALLERINA werden.",
     image: "./img/8.png",
@@ -135,7 +141,13 @@ var employees = [
     description:
       "wollte früher FEUERWEHRMANN oder MÜLLMANN werden.",
     image: "./img/10.png",
-    education: ["xx", "xx"]
+    education: ["2012 Abi an der Rudolf Steiner Schule",
+      "seit 2013 Assistenz für Menschen mit geistiger und körperlicher Behinderung",
+      "2014 bis 2018  Bachelor of Science – Physiotherapie",
+      "seit Dezember 2019 „In Bewegung“",
+      "Januar 2020 Zertifikat Manuelle Lymphdrainage und Komplexe Physikalische Entstauungstherapie",
+      "seit 2020 Dozent an der Wannsee Akademie",
+    ]
   },
 
   {
@@ -151,7 +163,7 @@ var employees = [
     ]
   },
   {
-    name: "Max Frömming",
+    name: "Max Frömming (Freier Mitarbeiter)",
     description: "wollte als er noch ein Kind war FEUERWEHRMANN werden.",
     image: "./img/13.png",
     education: [
@@ -224,7 +236,7 @@ var services = [
   {
     name: "Mamma-Gruppengymnastik",
     description:
-      "Frauen, die von Brustkrebs betroffen sind und operiert wurden, benötigen Unterstützung zur Verbesserung des Abfliessens der Lymphen. Des Weiteren können sich durch entstandene Narben Verwachsungen bilden, die die freie Beweglichkeit des Schultergelenks und Schultergürtels beeinträchtigen. Die Mamma-Gruppengymnastik wird speziell für Frauen nach Brustkrebsoperationen angeboten. Mit Freude an der Bewegung wird aktiv die Beweglichkeit geschult und der lymphatische Rückfluss gefördert.",
+      "Frauen, die von Brustkrebs betroffen sind und operiert wurden, benötigen Unterstützung zur Verbesserung des Abfliessens der Lymphen. Des Weiteren können sich durch entstandene Narben Verwachsungen bilden, die die freie Beweglichkeit des Schultergelenks und Schultergürtels beeinträchtigen. Die Mamma-Gruppengymnastik wird speziell für Frauen nach Brustkrebsoperationen angeboten. Mamma-Gruppengymnastik bieten wir momentan leider nicht an.",
     image: "./img/4.jpg"
   },
   {
@@ -290,7 +302,7 @@ var services = [
   {
     name: "Taijiguan/Qigong",
     description:
-      "Als besonderes Angebot veranstalten wir in unseren Räumen diesen Kurs für Sie! Schulung des Körperbewusstseins mit Entspannung, Besserung des Gleichgewichtssinnes und der Körperharmonie.\nKurs für Neueinsteiger! Wir beginnen mit den Grundlagen.\nEs geht zuerst um das Ankommen, Wahrnehmen und Zulassen des momentanen Körperzustandes. Es werden die Grundprinzipien des Taijiquan vermittelt. Es erfolgen intensive Einzelkorrekturen!\nDurch selbstständiges regelmäßiges Üben können schnell Fortschritte erzielt werden. ",
+      "Als besonderes Angebot veranstalten wir in unseren Räumen diesen Kurs für Sie! Schulung des Körperbewusstseins mit Entspannung, Besserung des Gleichgewichtssinnes und der Körperharmonie.\nKurs für Neueinsteiger! Wir beginnen mit den Grundlagen.\nEs geht zuerst um das Ankommen, Wahrnehmen und Zulassen des momentanen Körperzustandes. Es werden die Grundprinzipien des Taijiquan vermittelt. Es erfolgen intensive Einzelkorrekturen!\nQigong bieten wir momentan leider nicht an.",
     image: "./img/4.jpg"
   },
   {
@@ -302,7 +314,7 @@ var services = [
   {
     name: "Shiatsu",
     description:
-      "Shiatsu bedeutet übersetzt „Fingerdruck“ und entwickelte sich aus einer über 5.000 Jahre alten fernöstlichen Heilkunst. Heute ist es eine moderne Therapieform, die auch bei uns immer beliebter wird. Shiatsu umfasst die Verbesserung des Energieflusses durch die Ausübung von Druck sowie durch Dehnung.\nDas heutige Shiatsu ist eine ganzheitliche Therapie, die fest in der Traditionellen Chinesischen Medizin verwurzelt ist und die von dem Wissen ausgeht, dass die als Qi bekannte Lebensenergie durch Meridiane genannte Kanäle des Körpers fließt.",
+      "Shiatsu bedeutet übersetzt „Fingerdruck“ und entwickelte sich aus einer über 5.000 Jahre alten fernöstlichen Heilkunst. Heute ist es eine moderne Therapieform, die auch bei uns immer beliebter wird. Shiatsu umfasst die Verbesserung des Energieflusses durch die Ausübung von Druck sowie durch Dehnung.\nDas heutige Shiatsu ist eine ganzheitliche Therapie, die von dem Wissen ausgeht, dass die als Qi bekannte Lebensenergie durch Meridiane genannte Kanäle des Körpers fließt. Shiatsu bieten wir momentan leider nicht an.",
     image: "./img/4.jpg"
   },
   {
