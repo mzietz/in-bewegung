@@ -69,6 +69,7 @@ var employees = [
       "wollte als sie klein war, genau wie ihre Mama, ERZIEHERIN werden. Oder SCHAUSPIELERIN. Oder als ARTISTIN im Zirkus auftreten.",
     image: "./img/2.png",
     education: [
+      "10/2010 Manuelle Lymphdrainage und KPE",
       "seit Februar 2018 zertifizierte Bobaththerapeutin",
       "Mitte des Jahres werde ich für 12 Monate nach Australien gehen und dort als Assistentin für Kinder mit Handicaps tätig sein.",
       "ABER: Ich komme wieder"
@@ -124,6 +125,8 @@ var employees = [
     description: "wollte früher MALERIN werden und BÜCHER schreiben.",
     image: "./img/7.png",
     education: [
+      "Oktober 2016 Manuelle Lymphdrainage und KPE",
+      "Februar 2017 Migränetherapie nach Kern",
       "seit März 2018 Kiefergelenkstherapeutin",
       "September 2019 Zertifikatsabschluss Manuelle Therapie",
       "ab Mai 2020 Beginn Osteopathie-Ausbildung"
