@@ -2,7 +2,7 @@ var employees = [
   {
     name: "Kristina Hochuli",
     description:
-      "Inhaberin der Praxis In Bewegung. Ich wollte als Kind unbedingt HEBAMME werden, oder RICHTERIN, oder aber BIBLIOTHEKARIN ",
+      "Inhaberin der Praxis In Bewegung. Ich wollte als Kind unbedingt HEBAMME werden, oder RICHTERIN, oder aber BIBLIOTHEKARIN.",
     image: "./img/0.png",
     education: [
       "1988 Staatliches Examen als Physiotherapeutin",
@@ -88,7 +88,7 @@ var employees = [
   },
   {
     name: "Rebecca Gürtler",
-    description: "wollte immer schon FOTOGRAFIN, TÄNZERIN, oder ÄRZTIN werden.",
+    description: "wollte früher FOTOGRAFIN, TÄNZERIN, oder ÄRZTIN werden.",
     image: "./img/4.png",
     education: ["2014 bis 2018 Studium der Physiotherapie - Bachelor of Science an der Alice Salomon Hochschule Berlin",
       "April 2018 bis Dezember 2019 Physiotherapeutin für Menschen mit Mehrfachbehinderungen in der Tagesförderstätte Charlottenburg der Lebenshilfe Berlin",
@@ -117,7 +117,8 @@ var employees = [
     education: [
       "2005 Manuelle Lymphdrainage",
       "2007 Manipulativmassage nachDr.Terrier",
-      "2012 Marnitztherapie"
+      "2012 Marnitztherapie",
+      "Seit 2021 Bobath-Therapeutin"
     ]
   },
   {
@@ -133,23 +134,29 @@ var employees = [
     ]
   },
   {
-    name: "Maja Sperlich (Freie Mitarbeiterin)",
+    name: "Franziska Rohmann",
     description:
-      "wollte als Kind zur BERITTENEN POLIZEI gehen. Oder aber BALLERINA werden.",
+      "wollte als Kind ASTRONAUTIN oder ERZIEHERIN werden.",
     image: "./img/8.png",
-    education: ["Rückbildungsgymnastik", "Beckenbodenschule"]
+    education: ["2009 Abschluss als Physiotherapeutin", 
+    "2009 Manuelle Lymphdrainage", 
+    "2010-2011 Myofasziale Triggerpunkt-Therapie",
+    "2014-2016 Manuelle Therapie",
+    "2018-2021 Elternzeiten",
+    "ab Januar 2022 tätig in der Praxis IN BEWEGUNG"
+  ]
   },
   {
-    name: "Juri Mager",
+    name: "Ha My Nguyen",
     description:
-      "wollte früher FEUERWEHRMANN oder MÜLLMANN werden.",
+      "wollte als Kind LEHRERIN werden.",
     image: "./img/10.png",
-    education: ["2012 Abi an der Rudolf Steiner Schule",
-      "seit 2013 Assistenz für Menschen mit geistiger und körperlicher Behinderung",
-      "2014 bis 2018  Bachelor of Science – Physiotherapie",
-      "seit Dezember 2019 „In Bewegung“",
-      "Januar 2020 Zertifikat Manuelle Lymphdrainage und Komplexe Physikalische Entstauungstherapie",
-      "seit 2020 Dozent an der Wannsee Akademie",
+    education: ["Staatlich anerkannte Masseurin und medizinische Bademeisterin (2018-2020)",
+      "Anerkennungspraktikum in der Schlosspark-Klinik (10/2020 - 03/2021)",
+      "04/2021 Zertifikatsausbildung Manuelle Lymphdrainage und KME",
+      "seit März 2021 „In Bewegung“",
+      "10/2021 Myofasziale Triggerpunkt- und Schmerztherapie",
+      "ab 03/2022 Aufbau-Ausbildung zur Physiotherapeutin",
     ]
   },
 
@@ -162,15 +169,15 @@ var employees = [
       "2013 Manuelle Lymphdrainage und KPE",
       "2014 Craniomandibuläre Dysfunktion an der AHAB Akademie Berlin",
       "2016 Zertifikat Manuelle Therapie und MTT",
-      "2017 Kinesiotherapie Tape Kurs"
+      "2017 Kinesiotherapie Tape Kurs",
+      "Seit 2020 in Ausbildung zur Osteopathin"
     ]
   },
   {
-    name: "Max Frömming (Freier Mitarbeiter)",
-    description: "wollte als er noch ein Kind war FEUERWEHRMANN werden.",
+    name: "Vielleicht DU!",
+    description: "Bewirb dich jetzt. Wir freuen uns jederzeit über eine fröhliche, freundliche und kompetente Verstärkung unseres Teams!",
     image: "./img/13.png",
     education: [
-      "2016 FoBi Manuelle Therapie und Medizinische Trainingstherapie"
     ]
   }
 ];
