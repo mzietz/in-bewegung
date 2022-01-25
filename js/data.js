@@ -44,7 +44,7 @@ var employees = [
       "2010 Workshop Notfallmanagement",
       "18.08.2010 Prüfung Heilpraktiker für Physiotherapie",
       '2010 Sonderkurse: "Faszienstörungen", "Lumbopelviner Schmerz", KIK(K) und KIK(P), Zinnowitz',
-      "2010-2013 Ausbildungsreihe Schmerzphysiotherapie / Neuromedizinkonzept Reinhard Dittel, Bad Hersfeld",
+      "2010 - 2013 Ausbildungsreihe Schmerzphysiotherapie / Neuromedizinkonzept Reinhard Dittel, Bad Hersfeld",
       "2014 Ausbildung zur Schreibtherapeutin",
       "2014 Autogenes Training",
       "2015 Manipulationskurs Wirbelsäule bei Charlie Bauer Osteoflow",
@@ -54,6 +54,11 @@ var employees = [
       "2018 Sonderkurs Manuelle Therapie bei Kindern III, Berlin",
       "2019 Osteophatische Verfahren beim Kind, Berlin",
       "2019 Perinatale Osteopathie Teil I und Teil II, Dennis Gülden, Hamburg",
+      "2020 Entwicklungs-und Lerntherapie nach PäPKi bei Kindergarten- und Vorschulkindern",
+      "2021 PäPKi für Erwachsene",
+      "2021 Bedarfsorientierte Ernährung bei Dr. Wibke Bein-Wierzbinski Hamburg",
+      "2022 Craniosacrale Techniken beim Säugling",
+      "07/2021 - 10/2022 MLT (Manualmedizinische Leitungsbahntherapie) Kurs 1-3"
     ]
   },
   {
