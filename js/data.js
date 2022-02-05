@@ -55,6 +55,7 @@ var employees = [
       "2019 Osteophatische Verfahren beim Kind, Berlin",
       "2019 Perinatale Osteopathie Teil I und Teil II, Dennis Gülden, Hamburg",
       "2020 Entwicklungs-und Lerntherapie nach PäPKi bei Kindergarten- und Vorschulkindern",
+      "2020 Das vegetative Nervensystem - Möglichkeiten und Grenzen der Beeinflussung mit osteopathischen Therapieverfahren (ÄMM Berlin)",
       "2021 PäPKi für Erwachsene",
       "2021 Bedarfsorientierte Ernährung bei Dr. Wibke Bein-Wierzbinski Hamburg",
       "2022 Craniosacrale Techniken beim Säugling",
